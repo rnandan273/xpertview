@@ -1,0 +1,1205 @@
+[2016-02-06 12:44:59,781][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 12:45:05,568][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 12:45:07,708][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 12:45:07,711][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 12:45:08,383][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 12:45:08,707][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 12:45:09,033][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 12:45:09,035][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 12:51:12,494][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 12:51:12,496][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 12:51:12,496][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 12:51:12,497][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 12:51:12,506][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 12:52:15,666][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 12:52:25,681][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 12:52:27,644][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 12:52:27,648][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 12:52:28,190][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 12:52:28,358][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 12:52:28,631][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 12:52:28,633][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 12:57:48,282][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 12:57:48,284][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 12:57:48,285][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 12:57:48,286][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 12:57:48,297][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 13:01:03,534][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 13:01:17,397][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 13:01:19,707][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 13:01:19,709][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 13:01:20,390][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 13:01:20,568][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 13:01:20,832][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 13:01:20,834][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 13:12:12,903][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 13:12:14,045][ERROR][luminus.repl-server] failed to start nREPL
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.bind(ServerSocket.java:329)
+	at clojure.tools.nrepl.server$start_server.invokeStatic(server.clj:143)
+	at clojure.tools.nrepl.server$start_server.doInvoke(server.clj:121)
+	at clojure.lang.RestFn.invoke(RestFn.java:1096)
+	at luminus.repl_server$start.invokeStatic(repl_server.clj:23)
+	at luminus.repl_server$start.invoke(repl_server.clj:13)
+	at xpertview.core$start_app.invokeStatic(core.clj:31)
+	at xpertview.core$start_app.invoke(core.clj:25)
+	at xpertview.core$_main.invokeStatic(core.clj:37)
+	at xpertview.core$_main.doInvoke(core.clj:36)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at clojure.lang.Var.invoke(Var.java:375)
+	at user$eval13055.invokeStatic(form-init8252333428472882627.clj:1)
+	at user$eval13055.invoke(form-init8252333428472882627.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.eval(Compiler.java:6917)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$init_opt.invokeStatic(main.clj:277)
+	at clojure.main$init_opt.invoke(main.clj:277)
+	at clojure.main$initialize.invokeStatic(main.clj:308)
+	at clojure.main$null_opt.invokeStatic(main.clj:342)
+	at clojure.main$null_opt.invoke(main.clj:339)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:421)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+[2016-02-06 13:12:14,049][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 13:12:14,460][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 13:12:14,561][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 13:12:14,697][ERROR][luminus.http-server] server failed to start on port 3000
+java.lang.RuntimeException: java.net.BindException: Address already in use
+	at io.undertow.Undertow.start(Undertow.java:183)
+	at org.projectodd.wunderboss.web.undertow.UndertowWeb.start(UndertowWeb.java:83)
+	at org.projectodd.wunderboss.web.undertow.UndertowWeb.registerHandler(UndertowWeb.java:143)
+	at org.projectodd.wunderboss.web.undertow.UndertowWeb.registerHandler(UndertowWeb.java:124)
+	at org.projectodd.wunderboss.web.undertow.UndertowWeb.registerHandler(UndertowWeb.java:68)
+	at immutant.web.internal.wunderboss$mount.invokeStatic(wunderboss.clj:80)
+	at immutant.web.internal.wunderboss$mount.invoke(wunderboss.clj:57)
+	at immutant.web$run.invokeStatic(web.clj:97)
+	at immutant.web$run.doInvoke(web.clj:23)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invokeStatic(core.clj:648)
+	at clojure.core$apply.invoke(core.clj:641)
+	at luminus.http_server$start.invokeStatic(http_server.clj:17)
+	at luminus.http_server$start.invoke(http_server.clj:10)
+	at xpertview.core$start_app.invokeStatic(core.clj:32)
+	at xpertview.core$start_app.invoke(core.clj:25)
+	at xpertview.core$_main.invokeStatic(core.clj:37)
+	at xpertview.core$_main.doInvoke(core.clj:36)
+	at clojure.lang.RestFn.invoke(RestFn.java:397)
+	at clojure.lang.Var.invoke(Var.java:375)
+	at user$eval13055.invokeStatic(form-init8252333428472882627.clj:1)
+	at user$eval13055.invoke(form-init8252333428472882627.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:6927)
+	at clojure.lang.Compiler.eval(Compiler.java:6917)
+	at clojure.lang.Compiler.load(Compiler.java:7379)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7317)
+	at clojure.main$load_script.invokeStatic(main.clj:275)
+	at clojure.main$init_opt.invokeStatic(main.clj:277)
+	at clojure.main$init_opt.invoke(main.clj:277)
+	at clojure.main$initialize.invokeStatic(main.clj:308)
+	at clojure.main$null_opt.invokeStatic(main.clj:342)
+	at clojure.main$null_opt.invoke(main.clj:339)
+	at clojure.main$main.invokeStatic(main.clj:421)
+	at clojure.main$main.doInvoke(main.clj:384)
+	at clojure.lang.RestFn.invoke(RestFn.java:421)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.Var.applyTo(Var.java:700)
+	at clojure.main.main(main.java:37)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:180)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at io.undertow.Undertow.start(Undertow.java:139)
+	... 38 more
+[2016-02-06 13:14:27,969][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 13:14:29,799][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 13:14:29,804][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 13:14:30,394][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 13:14:30,512][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 13:14:30,650][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 13:14:30,652][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 13:14:33,121][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 14:31:31,915][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 14:31:31,916][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 14:31:31,917][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 14:31:31,918][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 14:31:31,928][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 14:36:22,922][INFO][xpertview.config] 
+-=[xpertview started successfully]=-
+[2016-02-06 14:36:23,011][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 14:36:23,137][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 14:36:23,243][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 14:36:23,246][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 14:51:42,079][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 14:51:42,081][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 14:51:42,098][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 14:52:38,887][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 14:53:00,160][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 14:53:03,109][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 14:53:03,112][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 14:53:03,789][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 14:53:03,979][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 14:53:04,240][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 14:53:04,242][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 14:59:06,674][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 14:59:06,675][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 14:59:06,676][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 14:59:06,677][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 14:59:06,696][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 15:05:19,714][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:05:22,027][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:08:19,240][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:08:23,949][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:17:47,030][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:17:54,635][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:18:13,985][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 15:18:13,988][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 15:18:14,107][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 15:18:14,444][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 15:18:14,780][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 15:18:14,799][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 15:19:25,336][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-06 15:19:25,347][INFO][xpertview.routes.home] {:emulsion {:acrylic 30, :plastic 30, :superior 30, :washable 30}}
+[2016-02-06 15:19:35,048][INFO][xpertview.routes.home] Query Param is ->  woodwork
+[2016-02-06 15:19:35,049][INFO][xpertview.routes.home] {:woodwork {:melamine 10, :hand_polish 10, :water_based 10, :laquer_based 10, :poly_coat 10, :duco 10}}
+[2016-02-06 15:21:29,954][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 15:21:29,955][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 15:21:29,956][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 15:21:29,957][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 15:21:29,976][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 15:26:56,887][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:27:09,127][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 15:27:30,213][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 15:27:30,216][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 15:27:30,367][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 15:27:30,629][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 15:27:31,009][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 15:27:31,011][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 16:16:26,986][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-06 16:16:26,997][INFO][xpertview.routes.home] {:emulsion {:acrylic 30, :plastic 30, :superior 30, :washable 30}}
+[2016-02-06 16:49:11,410][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-06 16:49:11,412][INFO][xpertview.routes.home] {}
+[2016-02-06 16:50:31,197][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-06 16:50:31,198][INFO][xpertview.routes.home] {}
+[2016-02-06 16:51:29,484][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-06 16:51:29,485][INFO][xpertview.routes.home] {}
+[2016-02-06 16:51:44,727][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-06 16:51:44,727][INFO][xpertview.routes.home] {}
+[2016-02-06 16:54:01,865][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 16:54:01,866][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 16:54:01,867][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 16:54:01,869][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 16:54:01,883][INFO][luminus.http-server] HTTP server stopped
+[2016-02-06 16:54:22,820][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-06 16:54:33,012][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-06 16:54:33,014][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-06 16:54:33,112][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-06 16:54:33,261][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-06 16:54:33,453][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-06 16:54:33,455][INFO][luminus.http-server] server started on port 3000
+[2016-02-06 16:54:45,125][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-06 16:54:45,141][INFO][xpertview.routes.home] {:emulsion {:acrylic 30, :plastic 30, :superior 30, :washable 30}}
+[2016-02-06 16:55:14,327][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-06 16:55:14,328][INFO][xpertview.routes.home] {:emulsion {:acrylic 30, :plastic 30, :superior 30, :washable 30}}
+[2016-02-06 16:59:22,559][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-06 16:59:22,564][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-06 16:59:22,564][INFO][xpertview.handler] shutdown complete!
+[2016-02-06 16:59:22,565][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-06 16:59:22,575][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 09:22:35,670][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 09:44:23,263][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 10:01:46,143][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 10:01:46,144][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 10:01:46,158][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,173][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 7.76, :phase :end, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,196][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,197][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.412, :phase :end, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,237][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,372][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 134.0, :phase :end, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,379][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,379][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0952, :phase :end, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,384][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,441][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 57.2, :phase :end, :pid 62049, :tid 37}
+[2016-02-07 10:01:46,486][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 10:01:46,489][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 10:01:52,056][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 10:03:17,771][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 10:03:23,163][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 10:05:12,360][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 10:05:12,382][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 41}
+[2016-02-07 10:05:12,403][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 20.1, :phase :end, :pid 62049, :tid 41}
+[2016-02-07 10:05:12,408][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 10:05:48,334][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link emulsion white}]
+[2016-02-07 10:05:48,337][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:05:48,338][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.134, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:05:48,341][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link emulsion red}]
+[2016-02-07 10:05:48,343][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:05:48,343][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0681, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:05:55,580][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link distemper white}]
+[2016-02-07 10:05:55,580][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:05:55,581][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.056, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:05:55,581][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link distemper brown}]
+[2016-02-07 10:05:55,582][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:05:55,582][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0533, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:06:05,156][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000014], :event/link decorative white}]
+[2016-02-07 10:06:05,158][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:06:05,158][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0545, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:06:05,158][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000016], :event/link decorative brown}]
+[2016-02-07 10:06:05,159][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 62049, :tid 42}
+[2016-02-07 10:06:05,159][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0481, :phase :end, :pid 62049, :tid 42}
+[2016-02-07 10:17:24,615][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 10:18:21,165][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 10:18:53,414][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 10:18:53,416][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 10:18:53,435][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,448][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 6.98, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,474][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,476][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 1.02, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,509][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,626][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 116.0, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,636][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,637][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.112, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,642][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,684][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 41.7, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:53,719][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 10:18:53,720][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 10:18:58,134][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 10:18:58,143][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:18:58,171][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 27.0, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:18:58,187][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 10:19:19,167][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link emulsion white}]
+[2016-02-07 10:19:19,169][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:19,170][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.12, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:19:19,170][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link emulsion red}]
+[2016-02-07 10:19:19,171][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:19,172][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0845, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:19:27,817][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link distemper white}]
+[2016-02-07 10:19:27,819][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:27,819][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.069, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:19:27,820][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link distemper brown}]
+[2016-02-07 10:19:27,820][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:27,820][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0416, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:19:32,737][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000014], :event/link decorative white}]
+[2016-02-07 10:19:32,738][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:32,738][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0579, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:19:32,739][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000016], :event/link decorative brown}]
+[2016-02-07 10:19:32,739][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 67912, :tid 22}
+[2016-02-07 10:19:32,740][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0509, :phase :end, :pid 67912, :tid 22}
+[2016-02-07 10:53:37,663][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 10:53:45,104][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 10:53:54,430][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 10:53:54,432][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 10:53:54,571][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 10:53:54,881][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 10:53:55,144][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 10:53:55,146][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 10:58:28,728][INFO][xpertview.routes.home] Query Param is ->  text
+[2016-02-07 10:58:28,738][INFO][xpertview.routes.home] [text]
+[2016-02-07 11:20:37,687][INFO][xpertview.routes.home] Query Param is ->  3
+[2016-02-07 11:20:37,696][INFO][xpertview.routes.home] [3]
+[2016-02-07 11:23:28,133][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 11:23:28,141][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 11:23:28,142][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 11:23:28,144][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 11:23:28,154][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 11:23:48,087][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:23:58,254][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 11:23:58,256][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 11:23:58,366][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 11:23:58,511][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 11:23:58,705][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 11:23:58,707][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 11:24:32,511][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-07 11:24:32,512][INFO][xpertview.interiors] Reached spec  
+[2016-02-07 11:24:32,513][INFO][xpertview.routes.home] nil
+[2016-02-07 11:25:03,268][INFO][xpertview.routes.home] Query Param is ->  t
+[2016-02-07 11:25:03,268][INFO][xpertview.interiors] Reached spec  t
+[2016-02-07 11:25:03,269][INFO][xpertview.routes.home] nil
+[2016-02-07 11:26:46,591][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 11:26:46,592][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 11:26:46,592][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 11:26:46,594][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 11:26:46,607][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 11:27:04,287][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:27:13,386][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 11:27:13,387][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 11:27:13,443][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 11:27:13,600][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 11:27:13,761][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 11:27:13,763][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 11:27:28,579][INFO][xpertview.routes.home] Query Param is ->  t
+[2016-02-07 11:27:28,593][INFO][xpertview.routes.home] [t]
+[2016-02-07 11:27:45,858][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 11:27:45,860][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 11:27:45,860][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 11:27:45,862][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 11:27:45,874][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 11:28:08,764][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:32:53,446][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:33:14,022][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:34:34,405][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:34:43,305][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 11:34:43,307][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 11:34:43,378][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 11:34:43,522][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 11:34:43,715][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 11:34:43,716][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 11:37:53,211][INFO][xpertview.routes.home] Query Param is ->  t
+[2016-02-07 11:37:53,224][INFO][xpertview.routes.home] [t]
+[2016-02-07 11:40:55,427][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 11:40:55,428][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 11:40:55,428][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 11:40:55,429][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 11:40:55,443][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 11:41:12,726][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:42:13,071][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:42:22,295][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 11:42:22,297][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 11:42:22,356][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 11:42:22,498][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 11:42:22,662][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 11:42:22,664][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 11:42:30,481][INFO][xpertview.routes.home] Query Param is ->  xxx
+[2016-02-07 11:42:30,491][INFO][xpertview.routes.home] {:answers [xxx]}
+[2016-02-07 11:42:40,320][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-07 11:42:40,321][INFO][xpertview.routes.home] {:answers [emulsion acrylic plastic superior washable]}
+[2016-02-07 11:42:58,536][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-07 11:42:58,537][INFO][xpertview.routes.home] {:answers [e]}
+[2016-02-07 11:44:01,337][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 11:44:01,338][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 11:44:01,339][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 11:44:01,341][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 11:44:01,351][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 11:47:22,366][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 11:47:31,886][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 11:47:31,887][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 11:47:31,944][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 11:47:32,098][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 11:47:32,275][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 11:47:32,277][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 11:50:56,539][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-07 12:03:02,681][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:03:02,683][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:03:02,684][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:03:02,686][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:03:02,697][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:03:29,261][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:03:39,509][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:03:39,511][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:03:39,585][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:03:39,742][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:03:39,911][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:03:39,914][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:03:51,846][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:03:51,847][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:03:51,868][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 33}
+[2016-02-07 12:03:51,875][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.09, :phase :end, :pid 79318, :tid 33}
+[2016-02-07 12:03:51,911][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 33}
+[2016-02-07 12:03:51,911][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.273, :phase :end, :pid 79318, :tid 33}
+[2016-02-07 12:03:51,943][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,043][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 99.5, :phase :end, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,048][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,048][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.185, :phase :end, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,055][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,087][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 32.2, :phase :end, :pid 79318, :tid 33}
+[2016-02-07 12:03:52,113][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:03:52,115][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:04:22,651][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:04:22,667][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 27}
+[2016-02-07 12:04:22,684][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 16.5, :phase :end, :pid 79318, :tid 27}
+[2016-02-07 12:04:22,715][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:04:40,028][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link decorative white}]
+[2016-02-07 12:04:40,030][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 55}
+[2016-02-07 12:04:40,031][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.132, :phase :end, :pid 79318, :tid 55}
+[2016-02-07 12:04:40,031][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link decorative brown}]
+[2016-02-07 12:04:40,032][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 55}
+[2016-02-07 12:04:40,032][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0566, :phase :end, :pid 79318, :tid 55}
+[2016-02-07 12:04:40,043][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22579 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22569 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23792 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19775 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17553 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24071 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20098 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20150 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20195 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20223 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19937 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20367 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20245 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20320 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20342 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20299 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19815 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19803 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19809 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23781 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23787 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24143 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:05:07,791][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link decorative white}]
+[2016-02-07 12:05:07,793][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 56}
+[2016-02-07 12:05:07,793][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0679, :phase :end, :pid 79318, :tid 56}
+[2016-02-07 12:05:07,793][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link decorative brown}]
+[2016-02-07 12:05:07,794][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79318, :tid 56}
+[2016-02-07 12:05:07,794][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0547, :phase :end, :pid 79318, :tid 56}
+[2016-02-07 12:05:07,797][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22579 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22569 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23792 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19775 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17553 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24071 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20098 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20150 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20195 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20223 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19937 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20367 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20245 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20320 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20342 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20299 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19815 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19803 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19809 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23781 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23787 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24143 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:07:08,018][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:07:08,019][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:07:08,019][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:07:08,020][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:07:08,031][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:07:27,463][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:08:24,790][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:08:34,242][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:08:34,244][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:08:34,325][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:08:34,470][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:08:34,638][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:08:34,641][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:08:42,833][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:08:42,834][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:08:42,847][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 24}
+[2016-02-07 12:08:42,853][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 2.93, :phase :end, :pid 79947, :tid 24}
+[2016-02-07 12:08:42,887][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 24}
+[2016-02-07 12:08:42,888][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.295, :phase :end, :pid 79947, :tid 24}
+[2016-02-07 12:08:42,930][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,082][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 151.0, :phase :end, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,097][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,098][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.117, :phase :end, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,104][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,197][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 87.5, :phase :end, :pid 79947, :tid 24}
+[2016-02-07 12:08:43,234][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:08:43,257][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:08:53,716][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:08:53,726][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 27}
+[2016-02-07 12:08:53,734][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 7.39, :phase :end, :pid 79947, :tid 27}
+[2016-02-07 12:08:53,739][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:09:05,977][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link emulsion white}]
+[2016-02-07 12:09:05,979][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 29}
+[2016-02-07 12:09:05,979][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0786, :phase :end, :pid 79947, :tid 29}
+[2016-02-07 12:09:05,980][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link emulsion red}]
+[2016-02-07 12:09:05,981][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 79947, :tid 29}
+[2016-02-07 12:09:05,981][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0484, :phase :end, :pid 79947, :tid 29}
+[2016-02-07 12:09:05,989][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22579 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22569 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23792 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19775 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17553 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24071 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20098 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20150 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20195 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20223 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19937 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20367 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20245 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20320 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20342 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20299 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19815 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19803 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19809 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23781 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23787 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24143 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:10:09,267][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:10:09,268][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:10:09,268][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:10:09,269][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:10:09,283][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:10:27,273][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:10:37,724][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:10:37,726][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:10:37,793][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:10:37,929][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:10:38,176][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:10:38,178][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:11:03,612][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:11:03,614][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:11:03,628][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,635][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.89, :phase :end, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,669][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,670][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.29, :phase :end, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,711][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,865][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 153.0, :phase :end, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,873][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,874][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.134, :phase :end, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,879][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,952][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 72.8, :phase :end, :pid 80211, :tid 25}
+[2016-02-07 12:11:03,987][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:11:03,997][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:11:11,850][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:11:11,865][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 27}
+[2016-02-07 12:11:11,876][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 10.3, :phase :end, :pid 80211, :tid 27}
+[2016-02-07 12:11:11,884][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:11:19,983][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:11:19,996][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link emulsion white}]
+[2016-02-07 12:11:19,997][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 28}
+[2016-02-07 12:11:19,998][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.165, :phase :end, :pid 80211, :tid 28}
+[2016-02-07 12:11:19,998][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link emulsion red}]
+[2016-02-07 12:11:19,999][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80211, :tid 28}
+[2016-02-07 12:11:20,000][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0653, :phase :end, :pid 80211, :tid 28}
+[2016-02-07 12:11:20,011][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22580 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22570 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23793 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19776 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17554 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24072 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20099 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20151 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20196 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20224 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19938 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20368 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20246 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20321 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20343 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20300 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19816 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19804 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19810 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23782 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23788 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24144 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:12:06,221][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:12:06,222][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-07 12:12:06,225][INFO][xpertview.interiors] DELETING db  true
+[2016-02-07 12:12:06,225][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:12:35,316][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:12:35,318][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:12:35,319][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:12:35,320][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:12:35,332][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:12:52,815][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:13:02,083][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:13:02,084][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:13:02,161][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:13:02,324][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:13:02,516][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:13:02,517][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:13:08,145][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:13:08,146][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:13:08,167][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,174][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.31, :phase :end, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,214][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,215][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.283, :phase :end, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,268][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,438][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 169.0, :phase :end, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,445][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,445][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.106, :phase :end, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,450][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,497][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 46.5, :phase :end, :pid 80523, :tid 23}
+[2016-02-07 12:13:08,529][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:13:08,532][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:13:18,742][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:13:18,753][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 27}
+[2016-02-07 12:13:18,768][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 12.1, :phase :end, :pid 80523, :tid 27}
+[2016-02-07 12:13:18,775][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:13:28,267][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:13:28,267][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-07 12:13:28,268][INFO][xpertview.interiors] DELETING db  true
+[2016-02-07 12:13:28,268][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:13:37,312][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:13:37,312][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:13:37,315][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,315][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.119, :phase :end, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,322][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,322][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.141, :phase :end, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,328][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,332][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.26, :phase :end, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,336][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,336][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0977, :phase :end, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,339][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,369][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 30.2, :phase :end, :pid 80523, :tid 30}
+[2016-02-07 12:13:37,379][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:13:37,379][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:13:41,450][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:13:41,460][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 31}
+[2016-02-07 12:13:41,469][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.27, :phase :end, :pid 80523, :tid 31}
+[2016-02-07 12:13:41,469][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:13:45,942][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:13:45,958][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link emulsion white}]
+[2016-02-07 12:13:45,960][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 32}
+[2016-02-07 12:13:45,960][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0721, :phase :end, :pid 80523, :tid 32}
+[2016-02-07 12:13:45,961][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000014], :event/link emulsion red}]
+[2016-02-07 12:13:45,962][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 32}
+[2016-02-07 12:13:45,963][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0585, :phase :end, :pid 80523, :tid 32}
+[2016-02-07 12:13:45,972][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22580 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22570 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23793 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19776 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17554 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24072 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20099 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20151 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20196 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20224 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19938 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20368 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20246 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20321 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20343 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20300 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19816 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19804 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19810 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23782 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23788 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24144 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:13:46,019][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-07 12:13:46,028][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:13:46,030][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000016], :event/link emulsion white}]
+[2016-02-07 12:13:46,031][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 33}
+[2016-02-07 12:13:46,031][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0699, :phase :end, :pid 80523, :tid 33}
+[2016-02-07 12:13:46,031][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000018], :event/link emulsion red}]
+[2016-02-07 12:13:46,032][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80523, :tid 33}
+[2016-02-07 12:13:46,032][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0451, :phase :end, :pid 80523, :tid 33}
+[2016-02-07 12:13:46,034][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22580 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22570 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23793 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19776 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17554 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24072 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20099 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20151 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20196 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20224 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19938 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20368 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20246 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20321 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20343 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20300 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19816 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19804 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19810 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23782 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23788 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24144 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-07 12:14:35,834][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:14:35,836][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:14:35,837][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:14:35,838][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:14:35,846][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:14:53,817][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:15:03,462][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:15:03,465][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:15:03,567][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:15:03,712][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:15:03,866][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:15:03,868][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:15:14,293][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:15:14,295][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:15:14,305][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,311][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.65, :phase :end, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,342][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,343][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.248, :phase :end, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,402][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:15:14,406][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:15:14,409][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,416][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.161, :phase :end, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,422][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,422][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.167, :phase :end, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,462][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,469][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,630][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 167.0, :phase :end, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,631][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 149.0, :phase :end, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,637][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,638][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0786, :phase :end, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,638][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,640][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0778, :phase :end, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,641][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,654][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,699][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 57.1, :phase :end, :pid 80785, :tid 37}
+[2016-02-07 12:15:14,712][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 57.2, :phase :end, :pid 80785, :tid 34}
+[2016-02-07 12:15:14,738][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:15:14,743][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:14,836][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:15:14,837][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:14,840][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-07 12:15:18,384][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:15:18,391][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 41}
+[2016-02-07 12:15:18,401][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.45, :phase :end, :pid 80785, :tid 41}
+[2016-02-07 12:15:18,405][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:26,486][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:26,486][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-07 12:15:26,487][INFO][xpertview.interiors] DELETING db  true
+[2016-02-07 12:15:26,488][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:15:30,375][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:15:30,375][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:15:30,377][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,377][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.372, :phase :end, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,381][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,382][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.212, :phase :end, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,387][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,390][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 2.94, :phase :end, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,394][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,394][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0539, :phase :end, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,397][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,423][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 26.5, :phase :end, :pid 80785, :tid 36}
+[2016-02-07 12:15:30,436][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:15:30,436][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:30,501][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:30,501][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:15:30,501][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db false
+[2016-02-07 12:15:30,501][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:34,140][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:15:34,147][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 80785, :tid 43}
+[2016-02-07 12:15:34,158][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 10.0, :phase :end, :pid 80785, :tid 43}
+[2016-02-07 12:15:34,161][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:43,197][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:15:43,198][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:15:43,237][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:15:43,238][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:16:22,937][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-07 12:16:22,947][INFO][xpertview.routes.home] {:answers [e]}
+[2016-02-07 12:21:41,603][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:21:41,605][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:21:41,605][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:21:41,606][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:21:41,612][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:22:03,176][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:22:23,563][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:22:23,570][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:22:23,582][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,588][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.63, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,615][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,616][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.268, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,667][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,800][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 133.0, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,808][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,808][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0658, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,813][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,848][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 35.0, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:23,873][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:22:23,875][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:22:26,279][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:22:26,287][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 22}
+[2016-02-07 12:22:26,301][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 13.0, :phase :end, :pid 81691, :tid 22}
+[2016-02-07 12:22:26,308][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:22:29,971][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:22:29,972][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:24:28,578][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:24:28,579][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:24:44,459][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link emulsion white}]
+[2016-02-07 12:24:44,462][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:24:44,463][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0916, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:24:44,464][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link emulsion red}]
+[2016-02-07 12:24:44,465][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:24:44,465][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0522, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:24:50,119][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link decorative white}]
+[2016-02-07 12:24:50,120][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:24:50,120][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0542, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:24:50,120][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link decorative brown}]
+[2016-02-07 12:24:50,121][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:24:50,121][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0514, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:25:08,654][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000014], :event/link distemper white}]
+[2016-02-07 12:25:08,655][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:25:08,655][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0489, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:25:08,655][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000016], :event/link distemper brown}]
+[2016-02-07 12:25:08,656][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 31}
+[2016-02-07 12:25:08,656][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0388, :phase :end, :pid 81691, :tid 31}
+[2016-02-07 12:27:09,262][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000018], :event/link emulsion white}]
+[2016-02-07 12:27:09,263][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:09,263][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0485, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:27:09,264][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000020], :event/link emulsion red}]
+[2016-02-07 12:27:09,264][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:09,264][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0651, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:27:15,121][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000022], :event/link distemper white}]
+[2016-02-07 12:27:15,122][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:15,122][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0984, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:27:15,123][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000024], :event/link distemper brown}]
+[2016-02-07 12:27:15,123][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:15,124][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0501, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:27:28,004][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000026], :event/link decorative white}]
+[2016-02-07 12:27:28,005][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:28,005][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0514, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:27:28,005][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000028], :event/link decorative brown}]
+[2016-02-07 12:27:28,006][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 81691, :tid 37}
+[2016-02-07 12:27:28,006][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0461, :phase :end, :pid 81691, :tid 37}
+[2016-02-07 12:32:17,379][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:32:26,816][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:32:26,818][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:32:26,890][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:32:27,025][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:32:27,173][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:32:27,174][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:33:45,755][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:33:45,756][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:33:45,780][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 26}
+[2016-02-07 12:33:45,789][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 5.59, :phase :end, :pid 83527, :tid 26}
+[2016-02-07 12:33:45,830][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 26}
+[2016-02-07 12:33:45,831][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.268, :phase :end, :pid 83527, :tid 26}
+[2016-02-07 12:33:45,934][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,109][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 175.0, :phase :end, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,123][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,124][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.116, :phase :end, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,129][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,195][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 64.6, :phase :end, :pid 83527, :tid 26}
+[2016-02-07 12:33:46,229][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:33:46,254][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:33:46,275][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:33:46,276][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:33:46,276][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db false
+[2016-02-07 12:33:46,276][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:33:46,317][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-07 12:33:59,908][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:33:59,919][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 29}
+[2016-02-07 12:33:59,929][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.05, :phase :end, :pid 83527, :tid 29}
+[2016-02-07 12:33:59,935][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:08,304][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:34:08,305][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:20,385][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:20,385][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-07 12:34:20,388][INFO][xpertview.interiors] DELETING db  true
+[2016-02-07 12:34:20,388][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:34:36,600][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:34:36,600][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-07 12:34:36,600][INFO][xpertview.interiors] DELETING db  false
+[2016-02-07 12:34:36,600][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:34:43,399][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-07 12:34:43,399][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:34:43,401][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,402][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.619, :phase :end, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,406][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,407][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.128, :phase :end, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,412][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,415][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.01, :phase :end, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,419][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,419][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.068, :phase :end, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,422][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,449][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 26.6, :phase :end, :pid 83527, :tid 33}
+[2016-02-07 12:34:43,461][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-07 12:34:43,462][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:43,472][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-07 12:34:43,476][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:43,477][INFO][xpertview.interiors] CREATE DB
+[2016-02-07 12:34:43,477][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db false
+[2016-02-07 12:34:43,477][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:47,701][INFO][xpertview.interiors] LOAD DB
+[2016-02-07 12:34:47,709][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 83527, :tid 35}
+[2016-02-07 12:34:47,716][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 6.35, :phase :end, :pid 83527, :tid 35}
+[2016-02-07 12:34:47,717][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:34:57,207][INFO][xpertview.interiors] PUMPING data
+[2016-02-07 12:34:57,207][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-07 12:35:16,528][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:35:16,528][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:35:16,530][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:35:16,531][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:35:16,540][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:35:37,773][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:35:54,802][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:35:54,804][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:35:54,900][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:35:55,106][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-07 12:35:55,359][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-07 12:35:55,366][INFO][luminus.http-server] server started on port 3000
+[2016-02-07 12:42:29,220][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-07 12:42:29,223][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-07 12:42:29,223][INFO][xpertview.handler] shutdown complete!
+[2016-02-07 12:42:29,224][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-07 12:42:29,234][INFO][luminus.http-server] HTTP server stopped
+[2016-02-07 12:42:47,692][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-07 12:42:57,081][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-07 12:42:57,083][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-07 12:42:57,136][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-07 12:42:57,257][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1

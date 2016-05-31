@@ -1,0 +1,539 @@
+[2016-03-28 18:51:56,379][INFO][datomic.peer] {:event :peer/cache-connection, :dbid "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :pid 23883, :tid 40}
+[2016-03-28 18:51:56,380][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 536.0, :phase :end, :pid 23883, :tid 40}
+[2016-03-28 18:51:56,399][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f92ff4-6c86-4c4e-90a0-bd6d27b73063", :phase :start, :pid 23883, :tid 40}
+[2016-03-28 18:51:56,481][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f92ff4-6c86-4c4e-90a0-bd6d27b73063", :phase :begin, :pid 23883, :tid 45}
+[2016-03-28 18:51:56,492][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f92ff4-6c86-4c4e-90a0-bd6d27b73063", :msec 10.0, :phase :end, :pid 23883, :tid 45}
+[2016-03-28 18:51:56,492][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f92ff4-6c86-4c4e-90a0-bd6d27b73063", :phase :end, :pid 23883, :tid 45}
+[2016-03-28 18:51:56,492][INFO][datomic.peer] {:event :peer/notify-data, :msec 11, :id #uuid "56f92ff4-6c86-4c4e-90a0-bd6d27b73063", :pid 23883, :tid 45}
+[2016-03-28 18:52:01,693][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:52:03,103][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:52:03,981][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:52:55,847][INFO][datomic.process-monitor] {:tid 41, :PeerAcceptNewMsec {:lo 10, :hi 10, :sum 10, :count 1}, :AvailableMB 1380.0, :StorageGetMsec {:lo 0, :hi 11, :sum 53, :count 20}, :pid 23883, :event :metrics, :ObjectCache {:lo 0, :hi 1, :sum 38, :count 62}, :LogIngestMsec {:lo 0, :hi 17, :sum 17, :count 2}, :MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PeerFulltextBatch {:lo 1, :hi 1, :sum 1, :count 1}, :DbAddFulltextMsec {:lo 0, :hi 6, :sum 6, :count 2}, :PodGetMsec {:lo 2, :hi 18, :sum 32, :count 3}, :LogIngestBytes {:lo 0, :hi 0, :sum 0, :count 2}, :StorageGetBytes {:lo 31, :hi 2911, :sum 5725, :count 20}}
+[2016-03-28 18:52:55,848][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 23883, :tid 41}
+[2016-03-28 18:52:55,848][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.0199, :phase :end, :pid 23883, :tid 41}
+[2016-03-28 18:53:34,377][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 23883, :tid 28}
+[2016-03-28 18:53:34,381][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 23883, :tid 28}
+[2016-03-28 18:53:34,382][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 2.55, :phase :end, :pid 23883, :tid 28}
+[2016-03-28 18:53:55,851][INFO][datomic.process-monitor] {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PodGetMsec {:lo 2, :hi 2, :sum 2, :count 1}, :AvailableMB 1380.0, :event :metrics, :pid 23883, :tid 41}
+[2016-03-28 18:53:55,851][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 23883, :tid 41}
+[2016-03-28 18:53:55,851][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.0226, :phase :end, :pid 23883, :tid 41}
+[2016-03-28 18:54:29,248][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-28 18:54:29,528][DEBUG][com.amazonaws.AmazonWebServiceClient] Internal logging succesfully configured to commons logger: true
+[2016-03-28 18:54:29,609][DEBUG][com.amazonaws.metrics.AwsSdkMetrics] Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+[2016-03-28 18:54:29,854][DEBUG][com.amazonaws.internal.config.InternalConfig] Configuration override awssdk_config_override.json not found.
+[2016-03-28 18:55:20,866][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:56:12,317][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:56:12,318][INFO][xpertview.interiors] CREATE DB
+[2016-03-28 18:56:12,330][DEBUG][datomic.peer] {:event :peer/transactor-admin-request, :cluster {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :request :create-database, :arg {:db-name "datomic"}, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:12,510][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:12,512][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:56:12,520][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 6.8, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:56:12,521][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 10.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:12,521][DEBUG][datomic.connector] {:event :peer/hornet-connect, :host "localhost", :pid 25653, :tid 27}
+[2016-03-28 18:56:12,529][DEBUG][org.hornetq.utils] using dummy address 79:4a:f:15:1b:71
+[2016-03-28 18:56:12,582][DEBUG][org.hornetq.core.client] Trying reconnection attempt 0/1
+[2016-03-28 18:56:12,595][DEBUG][org.hornetq.core.client] Trying to connect with connector = org.hornetq.core.remoting.impl.netty.NettyConnectorFactory@2c7b5b6d, parameters = {"trust-store-path" "datomic/transactor-trust.jks", "trust-store-password" "transactor", "port" 4334, "ssl-enabled" true, "key-store-path" "datomic/transactor-key.jks", "key-store-password" "transactor", "host" "localhost"} connector = NettyConnector [host=localhost, port=4334, httpEnabled=false, useServlet=false, servletPath=/messaging/HornetQServlet, sslEnabled=true, useNio=false]
+[2016-03-28 18:56:12,833][DEBUG][org.hornetq.core.client] Started Netty Connector version 3.6.7.Final-99b1b26
+[2016-03-28 18:56:12,834][DEBUG][org.hornetq.core.client] Trying to connect at the main server using connector :TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost
+[2016-03-28 18:56:12,834][DEBUG][org.hornetq.core.client] Remote destination: localhost/127.0.0.1:4334
+[2016-03-28 18:56:13,210][DEBUG][org.hornetq.core.client] Reconnection successfull
+[2016-03-28 18:56:13,217][DEBUG][org.hornetq.core.client] ClientSessionFactoryImpl received backup update for live/backup pair = TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost / null but it didn't belong to TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost
+[2016-03-28 18:56:13,355][DEBUG][org.hornetq.core.client] Calling close on session ClientSessionImpl [name=a4648870-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@266e0df4
+[2016-03-28 18:56:13,358][DEBUG][org.hornetq.core.client] calling cleanup on ClientSessionImpl [name=a4648870-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@266e0df4
+[2016-03-28 18:56:13,398][DEBUG][datomic.connector] {:event :peer/admin-request, :request :create-database, :return {:exists "datomic"}, :pid 25653, :tid 27}
+[2016-03-28 18:56:13,399][DEBUG][datomic.peer] {:event :peer/transactor-admin-request, :cluster {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :request :create-database, :arg {:db-name "datomic"}, :msec 1070.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:13,403][INFO][xpertview.interiors] CREATING db  datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic false
+[2016-03-28 18:56:13,412][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:56:19,089][INFO][xpertview.interiors] LOAD DB
+[2016-03-28 18:56:19,117][INFO][datomic.process-monitor] {:event :metrics/initializing, :metricsCallback clojure.core/identity, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,118][INFO][datomic.process-monitor] {:event :metrics/initializing, :metricsCallback clojure.core/identity, :msec 0.692, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,118][INFO][datomic.process-monitor] {:metrics/started clojure.core/identity, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,121][INFO][datomic.process-monitor] {:AvailableMB 1360.0, :event :metrics, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,122][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,125][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,129][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 6.73, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,130][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,138][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,139][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 8.4, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,142][INFO][datomic.domain] {:event :cache/create, :cache-bytes 954466304, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,151][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,154][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,155][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.09, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,155][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.75, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,156][INFO][datomic.peer] {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :version "0.9.5302", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,156][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,160][DEBUG][datomic.connector] {:event :peer/hornet-connect, :host "localhost", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,160][DEBUG][datomic.connector] {:event :peer/hornet-reuse-factory, :host "localhost", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,200][DEBUG][org.hornetq.core.client] Calling close on session ClientSessionImpl [name=a7ed3a01-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@15caabb0
+[2016-03-28 18:56:19,202][DEBUG][org.hornetq.core.client] calling cleanup on ClientSessionImpl [name=a7ed3a01-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@15caabb0
+[2016-03-28 18:56:19,202][DEBUG][datomic.connector] {:event :peer/admin-request, :request :start-database, :return {:status :already-started, :peers 2, :type :starter, :version "0.9.5302"}, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,204][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,207][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 2.27, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,208][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,210][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 794, :chunks 2, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,211][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 2.63, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,211][DEBUG][datomic.log] {:event :log/read-tail, :tail-desc {:rev 2, :d/r "56f92fa9-16f3-49cb-b195-4e76e0981337", :d/v "5302", :d/l 3, :etag "56f92ff4-972f-493a-89aa-ade5604d1e8b"}, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,219][DEBUG][datomic.index] {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__2416 0x477aad10 "datomic.cache$lookup_cache$reify__2416@477aad10"], :index-root-id #uuid "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,220][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,228][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :msec 4.31, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,232][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-e510-4c31-807f-5f26642df328", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,233][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-e510-4c31-807f-5f26642df328", :msec 1.17, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,237][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-689a-435d-a349-6e9fa93ec24c", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,239][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-689a-435d-a349-6e9fa93ec24c", :msec 1.68, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,240][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a0ce-4774-bba1-ac8f0f09c905", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,242][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a0ce-4774-bba1-ac8f0f09c905", :msec 1.68, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,247][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8c02-439e-9021-007c901617e2", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,248][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8c02-439e-9021-007c901617e2", :msec 1.31, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,251][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-2260-4237-8db9-6eca9a3608ee", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,258][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-2260-4237-8db9-6eca9a3608ee", :msec 6.49, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,261][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8dd5-4825-876b-13f5d8259561", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,265][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8dd5-4825-876b-13f5d8259561", :msec 3.66, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,311][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-93f4-4bcb-9364-8a8976c459ac", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,312][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-93f4-4bcb-9364-8a8976c459ac", :msec 1.27, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,313][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-71c6-4c66-83a0-4ef2e8fe5ccc", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,316][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-71c6-4c66-83a0-4ef2e8fe5ccc", :msec 2.16, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,328][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c462-46fa-b91c-131d84243be5", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,330][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c462-46fa-b91c-131d84243be5", :msec 1.2, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,338][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-ff94-4d32-b7d9-268b2e1e6fbd", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,339][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-da40-4ae3-b8db-51e92fd50cf5", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,340][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-ff94-4d32-b7d9-268b2e1e6fbd", :msec 2.29, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,342][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-57a3-4d10-b3ec-5fe3ae700f98", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,343][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-57a3-4d10-b3ec-5fe3ae700f98", :msec 1.08, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,345][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-da40-4ae3-b8db-51e92fd50cf5", :msec 5.61, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,355][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c921-4765-9743-664958f6c447", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,356][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c921-4765-9743-664958f6c447", :msec 1.13, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,368][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a564-414e-8374-d020f77a74aa", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,368][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-3a30-4194-8a85-0823fdae424c", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,369][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,370][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a564-414e-8374-d020f77a74aa", :msec 1.42, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:56:19,373][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-3a30-4194-8a85-0823fdae424c", :msec 2.21, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,377][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,379][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :msec 1.49, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,383][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :msec 14.6, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,397][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-22e7-4747-9ba0-edf8d6b724ee", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,398][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-22e7-4747-9ba0-edf8d6b724ee", :msec 1.23, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,405][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-16f3-49cb-b195-4e76e0981337", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,407][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-16f3-49cb-b195-4e76e0981337", :msec 1.8, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,416][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-29ee-4b10-afd3-b2499f38dd8a", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,417][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-29ee-4b10-afd3-b2499f38dd8a", :msec 1.13, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,431][INFO][datomic.log] {:event :log/load-segments, :count 0, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,442][INFO][datomic.log] {:event :log/catchup-fulltext, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,443][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,597][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 153.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,597][INFO][datomic.log] {:event :log/catchup-fulltext, :msec 155.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,597][INFO][datomic.log] {:event :log/catchup, :bytes 5798, :tail-t 1000, :index-t 63, :msec 38, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,609][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,610][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 1.06, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,611][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,613][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 794, :chunks 2, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,613][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 2.35, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,613][DEBUG][datomic.log] {:event :log/read-tail, :tail-desc {:rev 2, :d/r "56f92fa9-16f3-49cb-b195-4e76e0981337", :d/v "5302", :d/l 3, :etag "56f92ff4-972f-493a-89aa-ade5604d1e8b"}, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,614][DEBUG][datomic.index] {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__2416 0x477aad10 "datomic.cache$lookup_cache$reify__2416@477aad10"], :index-root-id #uuid "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,623][INFO][datomic.log] {:event :log/catchup-fulltext, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,623][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,624][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.112, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,624][INFO][datomic.log] {:event :log/catchup-fulltext, :msec 0.577, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,624][INFO][datomic.log] {:event :log/catchup, :bytes 0, :tail-t 1000, :index-t 1000, :msec 0, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,635][DEBUG][datomic.connector] {:event :connector/updater-loop, :phase :begin, :pid 25653, :tid 41}
+[2016-03-28 18:56:19,641][DEBUG][datomic.connector] {:event :connector/notify-loop, :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,641][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :msec 484.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,646][INFO][datomic.peer] {:event :peer/cache-connection, :dbid "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :pid 25653, :tid 27}
+[2016-03-28 18:56:19,647][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 521.0, :phase :end, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,669][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f930fb-9e3b-4137-ba54-02c1b316ed8d", :phase :start, :pid 25653, :tid 27}
+[2016-03-28 18:56:19,707][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f930fb-9e3b-4137-ba54-02c1b316ed8d", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,712][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f930fb-9e3b-4137-ba54-02c1b316ed8d", :msec 3.8, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,712][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f930fb-9e3b-4137-ba54-02c1b316ed8d", :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:56:19,712][INFO][datomic.peer] {:event :peer/notify-data, :msec 6, :id #uuid "56f930fb-9e3b-4137-ba54-02c1b316ed8d", :pid 25653, :tid 36}
+[2016-03-28 18:56:19,717][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-28 18:57:17,185][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:57:17,187][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 25653, :tid 17}
+[2016-03-28 18:57:17,188][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 2.81, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:57:19,131][INFO][datomic.process-monitor] {:tid 35, :PeerAcceptNewMsec {:lo 3, :hi 3, :sum 3, :count 1}, :AvailableMB 1320.0, :StorageGetMsec {:lo 1, :hi 14, :sum 51, :count 21}, :pid 25653, :event :metrics, :ObjectCache {:lo 0, :hi 1, :sum 37, :count 63}, :LogIngestMsec {:lo 0, :hi 38, :sum 38, :count 2}, :MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PeerFulltextBatch {:lo 1, :hi 1, :sum 1, :count 1}, :DbAddFulltextMsec {:lo 0, :hi 153, :sum 153, :count 2}, :PodGetMsec {:lo 2, :hi 8, :sum 14, :count 4}, :LogIngestBytes {:lo 0, :hi 5798, :sum 5798, :count 2}, :StorageGetBytes {:lo 31, :hi 2911, :sum 5790, :count 21}}
+[2016-03-28 18:57:19,131][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 25653, :tid 35}
+[2016-03-28 18:57:19,131][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.0194, :phase :end, :pid 25653, :tid 35}
+[2016-03-28 18:58:11,851][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 47}
+[2016-03-28 18:58:11,852][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:58:11,859][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 25653, :tid 17}
+[2016-03-28 18:58:11,859][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 6.2, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:58:11,859][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 7.08, :phase :end, :pid 25653, :tid 47}
+[2016-03-28 18:58:11,865][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-28 18:58:11,869][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9316b-2493-40ea-bd9c-893258a60c98", :phase :start, :pid 25653, :tid 47}
+[2016-03-28 18:58:11,904][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9316b-2493-40ea-bd9c-893258a60c98", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:58:11,906][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9316b-2493-40ea-bd9c-893258a60c98", :msec 1.31, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:11,906][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9316b-2493-40ea-bd9c-893258a60c98", :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:11,906][INFO][datomic.peer] {:event :peer/notify-data, :msec 3, :id #uuid "56f9316b-2493-40ea-bd9c-893258a60c98", :pid 25653, :tid 36}
+[2016-03-28 18:58:17,392][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 47}
+[2016-03-28 18:58:17,393][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0737, :phase :end, :pid 25653, :tid 47}
+[2016-03-28 18:58:17,393][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-28 18:58:17,395][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f93171-b79b-4bb3-980b-eb81672954b9", :phase :start, :pid 25653, :tid 47}
+[2016-03-28 18:58:17,409][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f93171-b79b-4bb3-980b-eb81672954b9", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:58:17,414][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f93171-b79b-4bb3-980b-eb81672954b9", :msec 1.79, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:17,414][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f93171-b79b-4bb3-980b-eb81672954b9", :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:17,414][INFO][datomic.peer] {:event :peer/notify-data, :msec 5, :id #uuid "56f93171-b79b-4bb3-980b-eb81672954b9", :pid 25653, :tid 36}
+[2016-03-28 18:58:19,139][INFO][datomic.process-monitor] {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PodGetMsec {:lo 6, :hi 6, :sum 6, :count 1}, :PeerAcceptNewMsec {:lo 1, :hi 1, :sum 2, :count 2}, :PeerFulltextBatch {:lo 1, :hi 1, :sum 2, :count 2}, :AvailableMB 1320.0, :event :metrics, :pid 25653, :tid 35}
+[2016-03-28 18:58:19,139][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 25653, :tid 35}
+[2016-03-28 18:58:19,139][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.015, :phase :end, :pid 25653, :tid 35}
+[2016-03-28 18:58:27,896][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 47}
+[2016-03-28 18:58:27,896][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0711, :phase :end, :pid 25653, :tid 47}
+[2016-03-28 18:58:27,897][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-28 18:58:27,901][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9317b-bddd-4141-a747-7689d331df2f", :phase :start, :pid 25653, :tid 47}
+[2016-03-28 18:58:27,912][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9317b-bddd-4141-a747-7689d331df2f", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:58:27,918][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9317b-bddd-4141-a747-7689d331df2f", :msec 1.43, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:27,919][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9317b-bddd-4141-a747-7689d331df2f", :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:27,919][INFO][datomic.peer] {:event :peer/notify-data, :msec 7, :id #uuid "56f9317b-bddd-4141-a747-7689d331df2f", :pid 25653, :tid 36}
+[2016-03-28 18:58:30,246][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 47}
+[2016-03-28 18:58:30,247][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0711, :phase :end, :pid 25653, :tid 47}
+[2016-03-28 18:58:30,247][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000065], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000066], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000067], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000068], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000069], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000070], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000071], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000072], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000073], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-28 18:58:30,248][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9317e-6099-4735-b0cb-cc69ed627ce6", :phase :start, :pid 25653, :tid 47}
+[2016-03-28 18:58:30,271][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9317e-6099-4735-b0cb-cc69ed627ce6", :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 18:58:30,273][DEBUG][datomic.peer] {:event :peer/accept-new, :id #uuid "56f9317e-6099-4735-b0cb-cc69ed627ce6", :msec 0.704, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:30,273][INFO][datomic.peer] {:event :peer/transact, :uuid #uuid "56f9317e-6099-4735-b0cb-cc69ed627ce6", :phase :end, :pid 25653, :tid 36}
+[2016-03-28 18:58:30,273][INFO][datomic.peer] {:event :peer/notify-data, :msec 2, :id #uuid "56f9317e-6099-4735-b0cb-cc69ed627ce6", :pid 25653, :tid 36}
+[2016-03-28 18:58:36,151][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:58:36,153][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 25653, :tid 17}
+[2016-03-28 18:58:36,153][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 2.04, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:59:15,186][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 48}
+[2016-03-28 18:59:15,186][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:59:15,189][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 25653, :tid 17}
+[2016-03-28 18:59:15,189][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 2.15, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:59:15,189][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 2.96, :phase :end, :pid 25653, :tid 48}
+[2016-03-28 18:59:15,251][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 18:59:15,253][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :msec 1.27, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 18:59:19,142][INFO][datomic.process-monitor] {:tid 35, :PeerAcceptNewMsec {:lo 0, :hi 1, :sum 1, :count 2}, :AvailableMB 1300.0, :StorageGetMsec {:lo 1, :hi 1, :sum 1, :count 1}, :pid 25653, :event :metrics, :ObjectCache {:lo 0, :hi 0, :sum 0, :count 1}, :MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PeerFulltextBatch {:lo 1, :hi 1, :sum 2, :count 2}, :PodGetMsec {:lo 2, :hi 2, :sum 4, :count 2}, :StorageGetBytes {:lo 2114, :hi 2114, :sum 2114, :count 1}}
+[2016-03-28 18:59:19,142][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 25653, :tid 35}
+[2016-03-28 18:59:19,142][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.0244, :phase :end, :pid 25653, :tid 35}
+[2016-03-28 18:59:44,805][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 48}
+[2016-03-28 18:59:44,806][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0856, :phase :end, :pid 25653, :tid 48}
+[2016-03-28 18:59:49,485][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 48}
+[2016-03-28 18:59:49,485][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.057, :phase :end, :pid 25653, :tid 48}
+[2016-03-28 18:59:50,896][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 25653, :tid 48}
+[2016-03-28 18:59:50,897][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0763, :phase :end, :pid 25653, :tid 48}
+[2016-03-28 19:00:14,402][INFO][datomic.peer] {:event :peer/transactor-connection-failed, :pid 25653, :tid 54}
+HornetQException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:425)
+	at org.hornetq.core.remoting.impl.netty.NettyConnector$Listener$1.run(NettyConnector.java:911)
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:105)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-28 19:00:14,407][DEBUG][org.hornetq.core.client] calling cleanup on ClientSessionImpl [name=a8342e13-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@2b911007
+[2016-03-28 19:00:14,408][DEBUG][org.hornetq.core.client] calling cleanup on ClientSessionImpl [name=a82fe852-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@735b8e22
+[2016-03-28 19:00:14,409][DEBUG][datomic.connector] {:event :connector/updater-cleanup, :phase :begin, :pid 25653, :tid 55}
+[2016-03-28 19:00:14,409][DEBUG][datomic.connector] {:event :connector/notify-cleanup, :phase :begin, :pid 25653, :tid 36}
+[2016-03-28 19:00:14,413][DEBUG][org.hornetq.core.client] Session was already closed, giving up now, this=ClientSessionImpl [name=a8342e13-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=true, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@2b911007
+[2016-03-28 19:00:14,414][DEBUG][datomic.connector] {:event :connector/updater-cleanup, :msec 3.97, :phase :end, :pid 25653, :tid 55}
+[2016-03-28 19:00:14,414][DEBUG][datomic.connector] {:event :connector/updater-loop, :msec 235000.0, :phase :end, :pid 25653, :tid 41}
+[2016-03-28 19:00:14,413][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:14,416][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:14,417][DEBUG][org.hornetq.core.client] Session was already closed, giving up now, this=ClientSessionImpl [name=a82fe852-f4e8-11e5-8409-794a0f151b47, username=GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=, closed=true, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=a3f9919d-f4e8-11e5-8409-794a0f151b47, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@735b8e22
+[2016-03-28 19:00:14,417][DEBUG][datomic.connector] {:event :connector/notify-cleanup, :msec 3.85, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 19:00:14,418][DEBUG][datomic.connector] {:event :connector/notify-loop, :msec 235000.0, :phase :end, :pid 25653, :tid 36}
+[2016-03-28 19:00:14,420][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 3.55, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:14,421][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 5.57, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:14,422][INFO][datomic.peer] {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :version "0.9.5302", :pid 25653, :tid 56}
+[2016-03-28 19:00:14,422][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:14,422][DEBUG][datomic.connector] {:event :peer/hornet-connect, :host "localhost", :pid 25653, :tid 56}
+[2016-03-28 19:00:14,422][DEBUG][datomic.connector] {:event :peer/hornet-reuse-factory, :host "localhost", :pid 25653, :tid 56}
+[2016-03-28 19:00:14,423][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :msec 1.23, :phase :end, :threw clojure.lang.ExceptionInfo, :pid 25653, :tid 56}
+[2016-03-28 19:00:14,424][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 1, :max-retries 9223372036854775807, :pid 25653, :tid 56}
+clojure.lang.ExceptionInfo: Error communicating with HOST localhost on PORT 4334 {:alt-host nil, :peer-version 2, :password "VNPhC10jfCHW0HFmyFcX5Xpwul5NBaErEfZKE7IuCX4=", :username "GF9fRnVyeOZasXD5U7JFcWdpD+Nlj+15J5z1V9ybrio=", :port 4334, :host "localhost", :version "0.9.5302", :timestamp 1459171810592, :encrypt-channel true}
+	at clojure.core$ex_info.invokeStatic(core.clj:4617)
+	at clojure.core$ex_info.invoke(core.clj:4617)
+	at datomic.connector$endpoint_error.invoke(connector.clj:52)
+	at datomic.connector.TransactorHornetConnector$fn__8510.invoke(connector.clj:238)
+	at datomic.connector.TransactorHornetConnector.admin_request_STAR_(connector.clj:226)
+	at datomic.peer.Connection$fn__8810.invoke(peer.clj:238)
+	at datomic.peer.Connection.create_connection_state(peer.clj:222)
+	at datomic.peer$create_connection$reconnect_fn__8871.invoke(peer.clj:488)
+	at clojure.core$partial$fn__4759.invoke(core.clj:2514)
+	at datomic.common$retry_fn$fn__253.invoke(common.clj:461)
+	at datomic.common$retry_fn.doInvoke(common.clj:461)
+	at clojure.lang.RestFn.invoke(RestFn.java:713)
+	at datomic.peer$create_connection$fn__8873.invoke(peer.clj:492)
+	at datomic.reconnector2.Reconnector$fn__8224.invoke(reconnector2.clj:57)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: HornetQException[errorType=INTERNAL_ERROR message=HQ119001: Failed to create session]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:962)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:787)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSession(ClientSessionFactoryImpl.java:324)
+	at datomic.hornet.SessionFactoryBundle.start_session_STAR_(hornet.clj:193)
+	at datomic.hornet$start_session.doInvoke(hornet.clj:165)
+	at clojure.lang.RestFn.invoke(RestFn.java:464)
+	at datomic.connector.TransactorHornetConnector$fn__8510.invoke(connector.clj:228)
+	... 16 more
+Caused by: java.lang.IllegalStateException: Connection is null
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:836)
+	... 22 more
+[2016-03-28 19:00:14,425][WARN][datomic.common] ... caused by ...
+HornetQException[errorType=INTERNAL_ERROR message=HQ119001: Failed to create session]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:962)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:787)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSession(ClientSessionFactoryImpl.java:324)
+	at datomic.hornet.SessionFactoryBundle.start_session_STAR_(hornet.clj:193)
+	at datomic.hornet$start_session.doInvoke(hornet.clj:165)
+	at clojure.lang.RestFn.invoke(RestFn.java:464)
+	at datomic.connector.TransactorHornetConnector$fn__8510.invoke(connector.clj:228)
+	at datomic.connector.TransactorHornetConnector.admin_request_STAR_(connector.clj:226)
+	at datomic.peer.Connection$fn__8810.invoke(peer.clj:238)
+	at datomic.peer.Connection.create_connection_state(peer.clj:222)
+	at datomic.peer$create_connection$reconnect_fn__8871.invoke(peer.clj:488)
+	at clojure.core$partial$fn__4759.invoke(core.clj:2514)
+	at datomic.common$retry_fn$fn__253.invoke(common.clj:461)
+	at datomic.common$retry_fn.doInvoke(common.clj:461)
+	at clojure.lang.RestFn.invoke(RestFn.java:713)
+	at datomic.peer$create_connection$fn__8873.invoke(peer.clj:492)
+	at datomic.reconnector2.Reconnector$fn__8224.invoke(reconnector2.clj:57)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Connection is null
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:836)
+	... 22 more
+[2016-03-28 19:00:14,425][WARN][datomic.common] ... caused by ...
+java.lang.IllegalStateException: Connection is null
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:836)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:787)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSession(ClientSessionFactoryImpl.java:324)
+	at datomic.hornet.SessionFactoryBundle.start_session_STAR_(hornet.clj:193)
+	at datomic.hornet$start_session.doInvoke(hornet.clj:165)
+	at clojure.lang.RestFn.invoke(RestFn.java:464)
+	at datomic.connector.TransactorHornetConnector$fn__8510.invoke(connector.clj:228)
+	at datomic.connector.TransactorHornetConnector.admin_request_STAR_(connector.clj:226)
+	at datomic.peer.Connection$fn__8810.invoke(peer.clj:238)
+	at datomic.peer.Connection.create_connection_state(peer.clj:222)
+	at datomic.peer$create_connection$reconnect_fn__8871.invoke(peer.clj:488)
+	at clojure.core$partial$fn__4759.invoke(core.clj:2514)
+	at datomic.common$retry_fn$fn__253.invoke(common.clj:461)
+	at datomic.common$retry_fn.doInvoke(common.clj:461)
+	at clojure.lang.RestFn.invoke(RestFn.java:713)
+	at datomic.peer$create_connection$fn__8873.invoke(peer.clj:492)
+	at datomic.reconnector2.Reconnector$fn__8224.invoke(reconnector2.clj:57)
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-28 19:00:15,428][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:15,429][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:15,432][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.15, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:15,432][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 3.38, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:15,432][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 2, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:16,435][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:16,437][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:16,439][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.74, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:16,440][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 3.2, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:16,440][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 3, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:17,445][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:17,446][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:17,447][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.19, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:17,447][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.67, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:17,448][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 4, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:18,453][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:18,453][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:18,455][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.18, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:18,455][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.71, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:18,455][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 5, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:19,148][INFO][datomic.process-monitor] {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 1290.0, :event :metrics, :pid 25653, :tid 35}
+[2016-03-28 19:00:19,148][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 25653, :tid 35}
+[2016-03-28 19:00:19,149][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 0.0235, :phase :end, :pid 25653, :tid 35}
+[2016-03-28 19:00:19,457][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:19,457][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:19,459][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.34, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:19,459][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.85, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:19,459][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 6, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:20,464][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:20,464][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:20,466][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.32, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:20,466][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.87, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:20,466][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 7, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:00:21,472][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 25653, :tid 56}
+[2016-03-28 19:00:21,472][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 25653, :tid 17}
+[2016-03-28 19:00:21,473][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 1.15, :phase :end, :pid 25653, :tid 17}
+[2016-03-28 19:00:21,473][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 1.61, :phase :end, :pid 25653, :tid 56}
+[2016-03-28 19:00:21,474][INFO][datomic.common] {:event :common/retry, :backoff 1000, :attempts 8, :max-retries 9223372036854775807, :result {:old-endpoint {:host "localhost", :port 4334, :timestamp 1459171810592}}, :pid 25653, :tid 56}
+[2016-03-28 19:30:53,979][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-28 19:30:54,262][DEBUG][com.amazonaws.AmazonWebServiceClient] Internal logging succesfully configured to commons logger: true
+[2016-03-28 19:30:54,357][DEBUG][com.amazonaws.metrics.AwsSdkMetrics] Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+[2016-03-28 19:30:54,619][DEBUG][com.amazonaws.internal.config.InternalConfig] Configuration override awssdk_config_override.json not found.
+[2016-03-28 19:31:04,339][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-03-28 19:31:04,341][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-03-28 19:31:04,468][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-03-28 19:31:04,497][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-03-28 19:31:04,687][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-03-28 19:31:04,688][INFO][luminus.http-server] server started on port 3000
+[2016-03-28 19:31:34,113][INFO][luminus.repl-server] nREPL server stopped
+[2016-03-28 19:31:34,114][INFO][xpertview.handler] xpertview is shutting down...
+[2016-03-28 19:31:34,115][INFO][xpertview.handler] shutdown complete!
+[2016-03-28 19:31:34,116][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-03-28 19:31:34,123][INFO][luminus.http-server] HTTP server stopped
+[2016-03-28 19:32:33,363][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-28 19:32:34,048][DEBUG][com.amazonaws.AmazonWebServiceClient] Internal logging succesfully configured to commons logger: true
+[2016-03-28 19:32:34,180][DEBUG][com.amazonaws.metrics.AwsSdkMetrics] Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+[2016-03-28 19:32:34,799][DEBUG][com.amazonaws.internal.config.InternalConfig] Configuration override awssdk_config_override.json not found.
+[2016-03-28 19:32:48,211][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-28 19:32:48,852][DEBUG][com.amazonaws.AmazonWebServiceClient] Internal logging succesfully configured to commons logger: true
+[2016-03-28 19:32:48,987][DEBUG][com.amazonaws.metrics.AwsSdkMetrics] Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+[2016-03-28 19:32:49,485][DEBUG][com.amazonaws.internal.config.InternalConfig] Configuration override awssdk_config_override.json not found.
+[2016-03-28 19:33:04,403][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-03-28 19:33:04,406][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-03-28 19:33:04,505][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-03-28 19:33:04,555][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-03-28 19:33:04,760][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-03-28 19:33:04,762][INFO][luminus.http-server] server started on port 3000
+[2016-03-28 19:33:45,186][INFO][xpertview.routes.home] Query Param is ->  p
+[2016-03-28 19:33:45,206][INFO][datomic.process-monitor] {:event :metrics/initializing, :metricsCallback clojure.core/identity, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,208][INFO][datomic.process-monitor] {:event :metrics/initializing, :metricsCallback clojure.core/identity, :msec 1.24, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,208][INFO][datomic.process-monitor] {:metrics/started clojure.core/identity, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,212][INFO][datomic.process-monitor] {:AvailableMB 1720.0, :event :metrics, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,212][DEBUG][datomic.process-monitor] {:event :metrics/report, :phase :begin, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,214][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,215][DEBUG][datomic.process-monitor] {:event :metrics/report, :msec 2.87, :phase :end, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,332][INFO][xpertview.routes.home] Query Param is ->  pa
+[2016-03-28 19:33:45,334][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 47}
+[2016-03-28 19:33:45,362][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,362][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:45,381][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 31079, :tid 62}
+[2016-03-28 19:33:45,381][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 67, :chunks 1, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,382][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 19.2, :phase :end, :pid 31079, :tid 59}
+[2016-03-28 19:33:45,382][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-catalog", :msec 19.2, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:45,389][INFO][datomic.domain] {:event :cache/create, :cache-bytes 954466304, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,407][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,409][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:45,412][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "pod-coord", :msec 2.9, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:45,413][DEBUG][datomic.coordination] {:event :coord/lookup-transactor-endpoint, :msec 5.53, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,413][INFO][datomic.peer] {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :version "0.9.5302", :pid 31079, :tid 51}
+[2016-03-28 19:33:45,414][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:45,418][DEBUG][datomic.connector] {:event :peer/hornet-connect, :host "localhost", :pid 31079, :tid 51}
+[2016-03-28 19:33:45,429][DEBUG][org.hornetq.utils] using dummy address 1b:3e:fffffffc:ffffffbe:45:-108
+[2016-03-28 19:33:45,488][DEBUG][org.hornetq.core.client] Trying reconnection attempt 0/1
+[2016-03-28 19:33:45,501][DEBUG][org.hornetq.core.client] Trying to connect with connector = org.hornetq.core.remoting.impl.netty.NettyConnectorFactory@66349df2, parameters = {"trust-store-path" "datomic/transactor-trust.jks", "trust-store-password" "transactor", "port" 4334, "ssl-enabled" true, "key-store-path" "datomic/transactor-key.jks", "key-store-password" "transactor", "host" "localhost"} connector = NettyConnector [host=localhost, port=4334, httpEnabled=false, useServlet=false, servletPath=/messaging/HornetQServlet, sslEnabled=true, useNio=false]
+[2016-03-28 19:33:45,553][INFO][xpertview.routes.home] Query Param is ->  pai
+[2016-03-28 19:33:45,553][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 52}
+[2016-03-28 19:33:45,632][DEBUG][org.hornetq.core.client] Started Netty Connector version 3.6.7.Final-99b1b26
+[2016-03-28 19:33:45,633][DEBUG][org.hornetq.core.client] Trying to connect at the main server using connector :TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost
+[2016-03-28 19:33:45,633][DEBUG][org.hornetq.core.client] Remote destination: localhost/127.0.0.1:4334
+[2016-03-28 19:33:45,748][INFO][xpertview.routes.home] Query Param is ->  pain
+[2016-03-28 19:33:45,748][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 53}
+[2016-03-28 19:33:45,999][DEBUG][org.hornetq.core.client] Reconnection successfull
+[2016-03-28 19:33:46,005][DEBUG][org.hornetq.core.client] ClientSessionFactoryImpl received backup update for live/backup pair = TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost / null but it didn't belong to TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost
+[2016-03-28 19:33:46,192][INFO][xpertview.routes.home] Query Param is ->  paint
+[2016-03-28 19:33:46,193][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 56}
+[2016-03-28 19:33:46,225][DEBUG][org.hornetq.core.client] Calling close on session ClientSessionImpl [name=e32705a2-f4ed-11e5-8a7d-1b3efcbe4594, username=lnS+/fztrXbLOdUNiFBkxNag2IPV17e3QX+Uqu+lvHk=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@150cdb17
+[2016-03-28 19:33:46,234][DEBUG][org.hornetq.core.client] calling cleanup on ClientSessionImpl [name=e32705a2-f4ed-11e5-8a7d-1b3efcbe4594, username=lnS+/fztrXbLOdUNiFBkxNag2IPV17e3QX+Uqu+lvHk=, closed=false, factory = ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=e2cefa8f-f4ed-11e5-8a7d-1b3efcbe4594, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?trust-store-path=datomic/transactor-trust-jks&trust-store-password=transactor&port=4334&ssl-enabled=true&key-store-path=datomic/transactor-key-jks&key-store-password=****&host=localhost, backupConfig=null], metaData=()]@150cdb17
+[2016-03-28 19:33:46,277][DEBUG][datomic.connector] {:event :peer/admin-request, :request :start-database, :return {:status :started, :peers 2, :type :starter, :version "0.9.5302"}, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,281][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,283][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 1.23, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,284][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,296][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 3487, :chunks 7, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,297][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 12.8, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,297][DEBUG][datomic.log] {:event :log/read-tail, :tail-desc {:rev 8, :d/r "56f92fa9-16f3-49cb-b195-4e76e0981337", :d/v "5302", :d/l 3, :etag "56f9317e-ee8b-49bd-ab24-107e840704e0"}, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,313][DEBUG][datomic.index] {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__2416 0x65c742a3 "datomic.cache$lookup_cache$reify__2416@65c742a3"], :index-root-id #uuid "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :pid 31079, :tid 51}
+[2016-03-28 19:33:46,316][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,319][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :msec 3.24, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,323][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-e510-4c31-807f-5f26642df328", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,328][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-e510-4c31-807f-5f26642df328", :msec 4.32, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,333][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-689a-435d-a349-6e9fa93ec24c", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,335][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-689a-435d-a349-6e9fa93ec24c", :msec 1.29, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,336][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a0ce-4774-bba1-ac8f0f09c905", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,338][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a0ce-4774-bba1-ac8f0f09c905", :msec 1.12, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,338][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8c02-439e-9021-007c901617e2", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,340][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8c02-439e-9021-007c901617e2", :msec 1.03, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,346][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-2260-4237-8db9-6eca9a3608ee", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,347][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-2260-4237-8db9-6eca9a3608ee", :msec 1.07, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,357][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8dd5-4825-876b-13f5d8259561", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,359][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-8dd5-4825-876b-13f5d8259561", :msec 1.73, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,384][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-93f4-4bcb-9364-8a8976c459ac", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,386][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-93f4-4bcb-9364-8a8976c459ac", :msec 1.18, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,387][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-71c6-4c66-83a0-4ef2e8fe5ccc", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,388][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-71c6-4c66-83a0-4ef2e8fe5ccc", :msec 1.1, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,402][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c462-46fa-b91c-131d84243be5", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,403][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c462-46fa-b91c-131d84243be5", :msec 1.11, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,412][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-ff94-4d32-b7d9-268b2e1e6fbd", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,413][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-da40-4ae3-b8db-51e92fd50cf5", :phase :begin, :pid 31079, :tid 59}
+[2016-03-28 19:33:46,414][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-ff94-4d32-b7d9-268b2e1e6fbd", :msec 1.01, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,414][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-57a3-4d10-b3ec-5fe3ae700f98", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,415][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-da40-4ae3-b8db-51e92fd50cf5", :msec 0.965, :phase :end, :pid 31079, :tid 59}
+[2016-03-28 19:33:46,416][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-57a3-4d10-b3ec-5fe3ae700f98", :msec 1.14, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,430][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c921-4765-9743-664958f6c447", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,431][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-c921-4765-9743-664958f6c447", :msec 1.08, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,444][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a564-414e-8374-d020f77a74aa", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,445][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-a564-414e-8374-d020f77a74aa", :msec 1.13, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,451][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,453][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5d2e-4288-8191-f76b07f1ff8d", :msec 1.28, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,478][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-3a30-4194-8a85-0823fdae424c", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,480][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-3a30-4194-8a85-0823fdae424c", :msec 1.16, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,506][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-22e7-4747-9ba0-edf8d6b724ee", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,508][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-22e7-4747-9ba0-edf8d6b724ee", :msec 1.17, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,514][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-16f3-49cb-b195-4e76e0981337", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,516][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-16f3-49cb-b195-4e76e0981337", :msec 1.07, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,523][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-29ee-4b10-afd3-b2499f38dd8a", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,524][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-29ee-4b10-afd3-b2499f38dd8a", :msec 1.07, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,535][INFO][datomic.log] {:event :log/load-segments, :count 0, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,587][INFO][datomic.log] {:event :log/catchup-fulltext, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,588][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,740][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 151.0, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,740][INFO][datomic.log] {:event :log/catchup-fulltext, :msec 153.0, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,740][INFO][datomic.log] {:event :log/catchup, :bytes 22656, :tail-t 1032, :index-t 63, :msec 73, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,759][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,760][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-ref, :ref-key "ref-index-root/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 0.828, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,761][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,769][DEBUG][datomic.kv-cluster] {:event :kv-cluster/pod-size, :bytes 3487, :chunks 7, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,769][INFO][datomic.kv-cluster] {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :msec 8.49, :phase :end, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,770][DEBUG][datomic.log] {:event :log/read-tail, :tail-desc {:rev 8, :d/r "56f92fa9-16f3-49cb-b195-4e76e0981337", :d/v "5302", :d/l 3, :etag "56f9317e-ee8b-49bd-ab24-107e840704e0"}, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,771][DEBUG][datomic.index] {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__2416 0x65c742a3 "datomic.cache$lookup_cache$reify__2416@65c742a3"], :index-root-id #uuid "56f92fa9-39af-4fe2-902a-aed0f2d24c31", :pid 31079, :tid 51}
+[2016-03-28 19:33:46,802][INFO][datomic.log] {:event :log/catchup-fulltext, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,802][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,803][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0322, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,803][INFO][datomic.log] {:event :log/catchup-fulltext, :msec 0.427, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,803][INFO][datomic.log] {:event :log/catchup, :bytes 0, :tail-t 1032, :index-t 1032, :msec 0, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,813][DEBUG][datomic.connector] {:event :connector/updater-loop, :phase :begin, :pid 31079, :tid 70}
+[2016-03-28 19:33:46,821][DEBUG][datomic.connector] {:event :connector/notify-loop, :phase :begin, :pid 31079, :tid 59}
+[2016-03-28 19:33:46,821][DEBUG][datomic.peer] {:event :peer/create-connection-impl, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-id "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151"}, :msec 1410.0, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,823][INFO][datomic.peer] {:event :peer/cache-connection, :dbid "datomic-fa9571bd-463c-4b2a-bc38-f1d004e6b151", :pid 31079, :tid 51}
+[2016-03-28 19:33:46,824][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 1080.0, :phase :end, :pid 31079, :tid 53}
+[2016-03-28 19:33:46,824][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 631.0, :phase :end, :pid 31079, :tid 56}
+[2016-03-28 19:33:46,824][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 1490.0, :phase :end, :pid 31079, :tid 47}
+[2016-03-28 19:33:46,824][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 1270.0, :phase :end, :pid 31079, :tid 52}
+[2016-03-28 19:33:46,826][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 1610.0, :phase :end, :pid 31079, :tid 51}
+[2016-03-28 19:33:46,901][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :phase :begin, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,901][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :phase :begin, :pid 31079, :tid 78}
+[2016-03-28 19:33:46,901][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :phase :begin, :pid 31079, :tid 80}
+[2016-03-28 19:33:46,901][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :phase :begin, :pid 31079, :tid 79}
+[2016-03-28 19:33:46,904][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :msec 2.45, :phase :end, :pid 31079, :tid 62}
+[2016-03-28 19:33:46,904][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :msec 3.0, :phase :end, :pid 31079, :tid 78}
+[2016-03-28 19:33:46,920][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :msec 18.7, :phase :end, :pid 31079, :tid 80}
+[2016-03-28 19:33:46,923][DEBUG][datomic.kv-cluster] {:event :kv-cluster/get-val, :val-key "56f92fa9-5686-43e5-be34-bdb108c30b45", :msec 21.8, :phase :end, :pid 31079, :tid 79}
+[2016-03-28 19:33:46,938][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x75d85a8f []]}
+[2016-03-28 19:33:46,942][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6cacb453 []]}
+[2016-03-28 19:33:46,946][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xc2e2742 []]}
+[2016-03-28 19:33:46,946][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x13d3f5e6 []]}
+[2016-03-28 19:33:46,998][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3158f64c []]}
+[2016-03-28 19:33:49,297][INFO][xpertview.routes.home] Query Param is ->  pain
+[2016-03-28 19:33:49,297][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 55}
+[2016-03-28 19:33:49,297][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0601, :phase :end, :pid 31079, :tid 55}
+[2016-03-28 19:33:49,304][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5eb66a8e []]}
+[2016-03-28 19:33:49,629][INFO][xpertview.routes.home] Query Param is ->  pai
+[2016-03-28 19:33:49,630][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 57}
+[2016-03-28 19:33:49,630][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0708, :phase :end, :pid 31079, :tid 57}
+[2016-03-28 19:33:49,636][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x73dcc2e9 []]}
+[2016-03-28 19:33:49,884][INFO][xpertview.routes.home] Query Param is ->  pa
+[2016-03-28 19:33:49,885][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 54}
+[2016-03-28 19:33:49,885][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0937, :phase :end, :pid 31079, :tid 54}
+[2016-03-28 19:33:49,896][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2db2681 []]}
+[2016-03-28 19:33:50,132][INFO][xpertview.routes.home] Query Param is ->  p
+[2016-03-28 19:33:50,132][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 30}
+[2016-03-28 19:33:50,132][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :msec 0.0705, :phase :end, :pid 31079, :tid 30}
+[2016-03-28 19:33:50,137][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x21c19b2 []]}
+[2016-03-28 19:33:50,342][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-28 19:33:50,343][DEBUG][datomic.peer] {:event :peer/get-connection, :cluster-conf {:protocol :sql, :system-root "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :db-name "datomic", :sql-url "jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic", :uri "datomic:sql://datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"}, :phase :begin, :pid 31079, :tid 26}

@@ -1,0 +1,119 @@
+[{:db/id #db/id[:db.part/db]
+ :db/ident :elem/follows
+ :db/valueType :db.type/ref
+ :db/cardinality :db.cardinality/one
+ :db/doc "Current Elem"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :elem/precedes
+ :db/valueType :db.type/ref
+ :db/cardinality :db.cardinality/one
+ :db/doc "Prev Elem"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :elem/elemref
+ :db/valueType :db.type/ref
+ :db/cardinality :db.cardinality/one
+ :db/doc "elem"
+ :db.install/_attribute :db.part/db}
+
+  {:db/id #db/id[:db.part/db]
+ :db/ident :elem/brand
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "brand"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :elem/category
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :elem/detail
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "details"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/brand
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "name of brand"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/type
+ :db/valueType :db.type/ref
+ :db/cardinality :db.cardinality/many
+ :db/doc "types of paints"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/paint_type
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "type of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/shade
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "color shade of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/category
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/productName
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/substrate
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/coverage
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/usage
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/durability
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+ :db/ident :paint/finish
+ :db/valueType :db.type/string
+ :db/cardinality :db.cardinality/one
+ :db/doc "category of paint"
+ :db.install/_attribute :db.part/db}
+]

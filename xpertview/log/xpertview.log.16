@@ -1,0 +1,1108 @@
+[2016-02-08 15:31:41,377][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:31:41,516][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x76a9cf4e []]}
+[2016-02-08 15:31:41,557][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:31:41,565][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x725c64a7 []]}
+[2016-02-08 15:31:41,676][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:31:41,678][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x95ce363 []]}
+[2016-02-08 15:31:42,068][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:31:42,071][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23d87e66 []]}
+[2016-02-08 15:31:42,182][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:31:42,185][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x65bbcaaf []]}
+[2016-02-08 15:31:42,462][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:31:42,468][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1acf3a93 []]}
+[2016-02-08 15:31:42,923][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:31:42,926][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5add9180 []]}
+[2016-02-08 15:31:43,213][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:31:43,217][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3a46b32 []]}
+[2016-02-08 15:31:43,564][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:31:43,569][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3a27e349 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:34:38,151][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:34:38,154][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x25b72166 []]}
+[2016-02-08 15:34:38,309][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:34:38,313][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1408d7ba []]}
+[2016-02-08 15:34:38,421][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:34:38,430][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x541a64ab []]}
+[2016-02-08 15:34:38,736][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:34:38,738][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x446bdb6d []]}
+[2016-02-08 15:34:38,835][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:34:38,837][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x34e00a7d []]}
+[2016-02-08 15:34:38,942][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:34:38,946][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x459fcad5 []]}
+[2016-02-08 15:34:39,176][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:34:39,178][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2a0df01a []]}
+[2016-02-08 15:34:39,310][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:34:39,312][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1cdfa55a []]}
+[2016-02-08 15:34:39,691][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:34:39,696][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x9aaf879 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:43:05,628][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:43:05,633][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2f64cb7d []]}
+[2016-02-08 15:43:05,792][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:43:05,794][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2c407a18 []]}
+[2016-02-08 15:43:05,929][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:43:05,934][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1423e321 []]}
+[2016-02-08 15:43:06,260][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:43:06,263][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x22c755db []]}
+[2016-02-08 15:43:06,408][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:43:06,412][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x41d8242c []]}
+[2016-02-08 15:43:06,743][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:43:06,745][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x46851a23 []]}
+[2016-02-08 15:43:07,103][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:43:07,105][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6be5864b []]}
+[2016-02-08 15:43:07,385][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:43:07,390][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x39e409fb []]}
+[2016-02-08 15:43:08,901][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:43:08,905][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5be07419 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:43:50,732][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:43:50,734][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x39b324c8 []]}
+[2016-02-08 15:43:50,845][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:43:50,847][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5025faf0 []]}
+[2016-02-08 15:43:50,985][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:43:50,989][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x79b0c38 []]}
+[2016-02-08 15:43:51,321][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:43:51,323][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2d1f846d []]}
+[2016-02-08 15:43:51,415][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:43:51,420][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xeeaa6e2 []]}
+[2016-02-08 15:43:51,555][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:43:51,558][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6f43a1df []]}
+[2016-02-08 15:43:51,793][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:43:51,795][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x103751e3 []]}
+[2016-02-08 15:43:51,941][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:43:51,944][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xd638536 []]}
+[2016-02-08 15:43:52,295][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:43:52,298][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4aac3d90 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:44:16,589][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:44:16,591][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x20f59b6a []]}
+[2016-02-08 15:44:16,755][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:44:16,758][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6bae92e []]}
+[2016-02-08 15:44:16,882][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:44:16,885][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3ff38379 []]}
+[2016-02-08 15:44:17,184][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:44:17,187][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x449db434 []]}
+[2016-02-08 15:44:17,286][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:44:17,289][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x737a4e58 []]}
+[2016-02-08 15:44:17,464][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:44:17,469][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x30df8839 []]}
+[2016-02-08 15:44:17,696][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:44:17,704][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x761efa8c []]}
+[2016-02-08 15:44:17,816][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:44:17,818][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x34181537 []]}
+[2016-02-08 15:44:18,142][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:44:18,153][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29201516 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:47:37,240][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:47:37,242][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ba1be34 []]}
+[2016-02-08 15:47:37,461][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:47:37,463][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x324eef8d []]}
+[2016-02-08 15:47:37,586][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:47:37,588][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5535dd81 []]}
+[2016-02-08 15:47:37,942][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:47:37,944][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15276e90 []]}
+[2016-02-08 15:47:38,100][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:47:38,102][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ee2e101 []]}
+[2016-02-08 15:47:38,264][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:47:38,267][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1e3ba852 []]}
+[2016-02-08 15:47:38,509][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:47:38,510][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x53575301 []]}
+[2016-02-08 15:47:38,669][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:47:38,671][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4ca87728 []]}
+[2016-02-08 15:47:38,968][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:47:38,972][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6d3db5c8 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:48:55,930][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:48:55,935][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6cc40d74 []]}
+[2016-02-08 15:48:56,051][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:48:56,053][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5b756f6f []]}
+[2016-02-08 15:48:56,176][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:48:56,178][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7b605bba []]}
+[2016-02-08 15:48:56,444][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:48:56,446][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xd3b499d []]}
+[2016-02-08 15:48:56,552][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:48:56,554][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1fabc29b []]}
+[2016-02-08 15:48:56,672][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:48:56,676][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x87d1789 []]}
+[2016-02-08 15:48:56,908][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:48:56,910][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4f1fd267 []]}
+[2016-02-08 15:48:57,024][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:48:57,026][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6c228e56 []]}
+[2016-02-08 15:48:57,408][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:48:57,410][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3ad0da1d [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:50:03,637][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:50:03,639][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7065981f []]}
+[2016-02-08 15:50:03,875][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:50:03,877][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x545864eb []]}
+[2016-02-08 15:50:04,011][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:50:04,012][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6fac9e65 []]}
+[2016-02-08 15:50:04,556][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:50:04,558][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x95c0042 []]}
+[2016-02-08 15:50:05,130][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:50:05,131][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3774dd8e []]}
+[2016-02-08 15:50:05,387][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:50:05,388][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x67b191d3 []]}
+[2016-02-08 15:50:05,676][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:50:05,678][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29e9d05c []]}
+[2016-02-08 15:50:05,817][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:50:05,820][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3866dcdd []]}
+[2016-02-08 15:50:06,233][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:50:06,236][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x564b0f4d [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:56:04,423][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-08 15:56:04,427][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4a6ecd1c []]}
+[2016-02-08 15:56:04,594][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-08 15:56:04,602][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xf9046e3 []]}
+[2016-02-08 15:56:04,844][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-08 15:56:04,845][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x79892786 []]}
+[2016-02-08 15:56:05,084][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-08 15:56:05,086][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e38275d []]}
+[2016-02-08 15:56:05,321][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-08 15:56:05,323][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5325528a []]}
+[2016-02-08 15:56:05,464][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-08 15:56:05,465][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3a48813 []]}
+[2016-02-08 15:56:05,576][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-08 15:56:05,577][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x69108602 []]}
+[2016-02-08 15:56:05,785][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-08 15:56:05,786][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4c5e8f0d []]}
+[2016-02-08 15:56:07,552][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-08 15:56:07,554][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xc42825e []]}
+[2016-02-08 15:56:07,713][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-08 15:56:07,715][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x355034cb []]}
+[2016-02-08 15:56:07,856][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-08 15:56:07,857][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x13f0fc01 []]}
+[2016-02-08 15:56:08,027][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-08 15:56:08,028][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23c0bc25 []]}
+[2016-02-08 15:56:08,180][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-08 15:56:08,181][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3d1e3ad0 []]}
+[2016-02-08 15:56:08,338][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-08 15:56:08,340][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2fc024b []]}
+[2016-02-08 15:56:08,505][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-08 15:56:08,506][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3e62dab2 []]}
+[2016-02-08 15:56:08,666][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-08 15:56:08,668][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3ba5be6e []]}
+[2016-02-08 15:56:09,271][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:56:09,273][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5ffd09da []]}
+[2016-02-08 15:56:09,423][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:56:09,424][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xe5b74f0 []]}
+[2016-02-08 15:56:09,527][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:56:09,529][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xce9f6fa []]}
+[2016-02-08 15:56:09,793][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:56:09,795][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x334b4fb8 []]}
+[2016-02-08 15:56:09,913][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:56:09,915][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x603f69d5 []]}
+[2016-02-08 15:56:10,010][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:56:10,012][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7daefcf7 []]}
+[2016-02-08 15:56:10,232][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:56:10,234][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x587a8bc1 []]}
+[2016-02-08 15:56:10,367][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:56:10,369][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3e1fb66f []]}
+[2016-02-08 15:56:10,456][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 15:56:10,459][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x75cc5c39 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 15:56:12,444][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 15:56:12,446][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4cb10036 []]}
+[2016-02-08 15:56:12,641][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 15:56:12,644][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x10fc45e5 []]}
+[2016-02-08 15:56:12,794][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 15:56:12,796][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ae41fd5 []]}
+[2016-02-08 15:56:12,943][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 15:56:12,946][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x77729c9c []]}
+[2016-02-08 15:56:13,103][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 15:56:13,105][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x44e2d78c []]}
+[2016-02-08 15:56:13,256][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 15:56:13,258][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5cf4bfe5 []]}
+[2016-02-08 15:56:13,418][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 15:56:13,419][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x47a26d6f []]}
+[2016-02-08 15:56:13,563][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 15:56:13,565][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7810431c []]}
+[2016-02-08 15:56:13,967][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-08 15:56:13,969][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2f36fa10 []]}
+[2016-02-08 15:59:57,427][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-08 15:59:57,427][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-08 15:59:57,428][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-08 17:45:23,557][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 17:45:23,562][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15f2ff09 []]}
+[2016-02-08 17:45:23,706][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 17:45:23,710][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x565b04a4 []]}
+[2016-02-08 17:45:23,828][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 17:45:23,830][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6bbec8e4 []]}
+[2016-02-08 17:45:24,134][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 17:45:24,143][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x77ae0353 []]}
+[2016-02-08 17:45:24,233][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 17:45:24,235][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x63a873d8 []]}
+[2016-02-08 17:45:24,345][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 17:45:24,351][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x17fa572a []]}
+[2016-02-08 17:45:24,562][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 17:45:24,564][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x351a22ce []]}
+[2016-02-08 17:45:24,711][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 17:45:24,714][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x298db84 []]}
+[2016-02-08 17:45:24,839][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 17:45:24,840][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7f67f42a [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 18:14:30,810][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 18:14:30,825][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x71adcce4 []]}
+[2016-02-08 18:14:31,280][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 18:14:31,283][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7d4c53a8 []]}
+[2016-02-08 18:14:31,635][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 18:14:31,637][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x37b2c190 []]}
+[2016-02-08 18:14:32,502][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 18:14:32,503][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6b996a3c []]}
+[2016-02-08 18:14:32,753][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 18:14:32,754][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xc969ed []]}
+[2016-02-08 18:14:33,262][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 18:14:33,265][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x530f2acf []]}
+[2016-02-08 18:14:33,656][INFO][xpertview.routes.home] Query Param is ->  distemo
+[2016-02-08 18:14:33,660][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x77aa81aa []]}
+[2016-02-08 18:14:34,294][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 18:14:34,296][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x127f7f53 []]}
+[2016-02-08 18:14:34,615][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 18:14:34,617][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x437ea308 []]}
+[2016-02-08 18:14:35,025][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 18:14:35,028][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e4817a8 []]}
+[2016-02-08 18:14:35,185][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 18:14:35,187][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x126813b3 [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 18:17:21,030][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 18:17:21,032][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5a8ae418 []]}
+[2016-02-08 18:17:21,137][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 18:17:21,142][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3fe613b6 []]}
+[2016-02-08 18:17:21,337][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 18:17:21,339][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x498b28c8 []]}
+[2016-02-08 18:17:21,678][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 18:17:21,679][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x196873e []]}
+[2016-02-08 18:17:21,759][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 18:17:21,761][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x76d2c6df []]}
+[2016-02-08 18:17:21,877][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 18:17:21,878][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x205ea094 []]}
+[2016-02-08 18:17:22,108][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 18:17:22,111][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x52391575 []]}
+[2016-02-08 18:17:22,227][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 18:17:22,229][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x409d06eb []]}
+[2016-02-08 18:17:22,300][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-08 18:17:22,304][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6af9b1ee [[berger oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-08 18:17:23,346][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-08 18:17:23,351][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5c809c7b []]}
+[2016-02-08 18:17:23,507][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-08 18:17:23,512][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2d21bf33 []]}
+[2016-02-08 18:17:23,682][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-08 18:17:23,688][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb29458d []]}
+[2016-02-08 18:17:23,827][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-08 18:17:23,831][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7b712f2 []]}
+[2016-02-08 18:17:24,011][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-08 18:17:24,015][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6d44f58b []]}
+[2016-02-08 18:17:24,156][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-08 18:17:24,161][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2893fc38 []]}
+[2016-02-08 18:17:24,335][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-08 18:17:24,341][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5773384e []]}
+[2016-02-08 18:17:24,500][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-08 18:17:24,507][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x389d338d []]}
+[2016-02-08 18:17:24,686][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-08 18:17:24,693][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x14c3c322 []]}
+[2016-02-08 21:47:25,707][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-08 21:47:25,718][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-08 21:47:25,726][INFO][xpertview.handler] shutdown complete!
+[2016-02-08 21:47:25,760][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-08 21:47:25,853][INFO][luminus.http-server] HTTP server stopped
+[2016-02-09 12:17:03,898][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-09 12:17:05,765][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-09 12:17:24,727][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-09 12:17:24,729][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-09 12:17:24,836][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-09 12:17:25,129][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-09 12:17:25,436][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-09 12:17:25,438][INFO][luminus.http-server] server started on port 3000
+[2016-02-09 13:12:23,755][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:12:23,869][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:12:24,103][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:12:24,356][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:12:24,521][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:12:24,669][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:12:24,779][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:12:24,991][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:12:27,884][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:12:28,101][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:12:28,275][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:12:28,454][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:12:28,626][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:12:28,827][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:12:28,992][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:12:29,190][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:36:51,175][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:36:51,316][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:36:51,450][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:36:51,755][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:36:51,844][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:36:51,926][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:36:52,155][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:36:52,286][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:36:52,365][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 13:36:54,345][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:36:54,649][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:36:54,960][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:36:55,474][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:36:55,639][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:36:55,809][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:36:55,966][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:36:56,155][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:36:56,325][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:37:05,769][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-09 13:37:05,772][INFO][xpertview.interiors] CREATE DB
+[2016-02-09 13:37:05,785][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 52}
+[2016-02-09 13:37:05,795][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 6.62, :phase :end, :pid 94681, :tid 52}
+[2016-02-09 13:37:05,822][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 52}
+[2016-02-09 13:37:05,824][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.604, :phase :end, :pid 94681, :tid 52}
+[2016-02-09 13:37:05,878][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,109][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 231.0, :phase :end, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,117][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,118][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.217, :phase :end, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,123][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,165][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 41.4, :phase :end, :pid 94681, :tid 52}
+[2016-02-09 13:37:06,195][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-09 13:37:06,197][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:37:07,932][INFO][xpertview.interiors] LOAD DB
+[2016-02-09 13:37:07,955][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 40}
+[2016-02-09 13:37:07,990][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 28.9, :phase :end, :pid 94681, :tid 40}
+[2016-02-09 13:37:08,001][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:37:10,392][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :event/link distemper white}]
+[2016-02-09 13:37:10,393][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 57}
+[2016-02-09 13:37:10,393][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0583, :phase :end, :pid 94681, :tid 57}
+[2016-02-09 13:37:10,394][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :event/link distemper brown}]
+[2016-02-09 13:37:10,395][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 94681, :tid 57}
+[2016-02-09 13:37:10,395][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.185, :phase :end, :pid 94681, :tid 57}
+[2016-02-09 13:37:10,404][ERROR][xpertview.middleware] #error {
+ :cause Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+ :via
+ [{:type com.fasterxml.jackson.core.JsonGenerationException
+   :message Cannot JSON encode object of class: class datomic.db.Datum: datomic.db.Datum@3aad15de
+   :at [cheshire.generate$generate invokeStatic generate.clj 148]}]
+ :trace
+ [[cheshire.generate$generate invokeStatic generate.clj 148]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 123]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 119]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.generate$generate invokeStatic generate.clj 127]
+  [cheshire.generate$generate invoke generate.clj 111]
+  [cheshire.core$generate_string invokeStatic core.clj 32]
+  [cheshire.core$generate_string invoke core.clj 15]
+  [ring.middleware.format_response$make_json_encoder$fn__22639 invoke format_response.clj 210]
+  [ring.middleware.format_response$wrap_format_response$fn__22629 invoke format_response.clj 193]
+  [xpertview.middleware$wrap_formats$fn__23850 invoke middleware.clj 59]
+  [ring.middleware.webjars$wrap_webjars$fn__19835 invoke webjars.clj 33]
+  [ring.middleware.flash$wrap_flash$fn__17555 invoke flash.clj 35]
+  [immutant.web.internal.undertow$wrap_undertow_session$fn__24129 invoke undertow.clj 72]
+  [ring.middleware.keyword_params$wrap_keyword_params$fn__20158 invoke keyword_params.clj 35]
+  [ring.middleware.nested_params$wrap_nested_params$fn__20210 invoke nested_params.clj 84]
+  [ring.middleware.multipart_params$wrap_multipart_params$fn__20255 invoke multipart_params.clj 117]
+  [ring.middleware.params$wrap_params$fn__20283 invoke params.clj 64]
+  [ring.middleware.cookies$wrap_cookies$fn__19997 invoke cookies.clj 161]
+  [ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__20427 invoke absolute_redirects.clj 36]
+  [ring.middleware.resource$wrap_resource$fn__20305 invoke resource.clj 28]
+  [ring.middleware.content_type$wrap_content_type$fn__20380 invoke content_type.clj 30]
+  [ring.middleware.default_charset$wrap_default_charset$fn__20402 invoke default_charset.clj 26]
+  [ring.middleware.not_modified$wrap_not_modified$fn__20359 invoke not_modified.clj 52]
+  [ring.middleware.x_headers$wrap_xss_protection$fn__19875 invoke x_headers.clj 71]
+  [ring.middleware.x_headers$wrap_frame_options$fn__19863 invoke x_headers.clj 38]
+  [ring.middleware.x_headers$wrap_content_type_options$fn__19869 invoke x_headers.clj 53]
+  [xpertview.middleware$wrap_context$fn__23839 invoke middleware.clj 32]
+  [xpertview.middleware$wrap_internal_error$fn__23845 invoke middleware.clj 37]
+  [immutant.web.internal.undertow$create_http_handler$reify__24201 handleRequest undertow.clj 135]
+  [org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2 handleRequest UndertowWebsocket.java 104]
+  [io.undertow.server.session.SessionAttachmentHandler handleRequest SessionAttachmentHandler.java 68]
+  [io.undertow.server.Connectors executeRootHandler Connectors.java 199]
+  [io.undertow.server.HttpServerExchange$1 run HttpServerExchange.java 778]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+[2016-02-09 13:37:15,644][INFO][xpertview.routes.home] Query Param is ->  s
+[2016-02-09 13:37:15,732][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x27ba9d24 []]}
+[2016-02-09 13:37:15,979][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:37:15,985][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x601a1ff0 []]}
+[2016-02-09 13:37:16,144][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:37:16,148][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2556d81f []]}
+[2016-02-09 13:37:16,345][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:37:16,348][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e2fb35a []]}
+[2016-02-09 13:37:16,453][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:37:16,456][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x44ccd4bc []]}
+[2016-02-09 13:37:16,743][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:37:16,745][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2d15ad39 []]}
+[2016-02-09 13:37:16,834][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:37:16,836][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2c01e3dc []]}
+[2016-02-09 13:37:16,944][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:37:16,948][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x326c594c []]}
+[2016-02-09 13:37:17,211][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:37:17,213][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d9a30a0 []]}
+[2016-02-09 13:37:17,371][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:37:17,373][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x58bc8569 []]}
+[2016-02-09 13:37:17,505][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 13:37:17,509][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15173454 [[asian paints oil_based distemper brown], [berger oil_based distemper white]]]}
+[2016-02-09 13:37:22,507][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:37:22,509][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3eb6b932 []]}
+[2016-02-09 13:37:22,680][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:37:22,682][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7433ff84 []]}
+[2016-02-09 13:37:22,873][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:37:22,876][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x76161f05 []]}
+[2016-02-09 13:37:23,051][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:37:23,054][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7aff28f7 []]}
+[2016-02-09 13:37:23,219][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:37:23,221][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6b902a8c []]}
+[2016-02-09 13:37:23,391][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:37:23,393][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x31af4f2e []]}
+[2016-02-09 13:37:23,572][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:37:23,574][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2c63e66e []]}
+[2016-02-09 13:37:23,744][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:37:23,748][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7532d520 []]}
+[2016-02-09 13:37:23,938][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:37:23,940][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7d2fd902 []]}
+[2016-02-09 13:37:24,562][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:37:24,564][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3f702876 []]}
+[2016-02-09 13:37:24,768][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:37:24,770][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7d371275 []]}
+[2016-02-09 13:37:24,970][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:37:24,972][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2decdc6c []]}
+[2016-02-09 13:37:25,188][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:37:25,193][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x47699382 []]}
+[2016-02-09 13:37:25,361][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:37:25,365][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x736c6a73 []]}
+[2016-02-09 13:37:25,498][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:37:25,501][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x40720d2c []]}
+[2016-02-09 13:37:25,610][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:37:25,612][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4b7b8341 []]}
+[2016-02-09 13:37:25,895][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:37:25,897][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7867e75c []]}
+[2016-02-09 13:37:27,072][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:37:27,074][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6278884a []]}
+[2016-02-09 13:37:27,237][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:37:27,239][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x12105845 []]}
+[2016-02-09 13:37:27,420][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:37:27,422][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7c8d9ae4 []]}
+[2016-02-09 13:37:27,587][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:37:27,590][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb7bb097 []]}
+[2016-02-09 13:37:27,771][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:37:27,774][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x656ffeae []]}
+[2016-02-09 13:37:27,939][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:37:27,941][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x45b08ebf []]}
+[2016-02-09 13:37:28,128][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:37:28,130][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x31bd0c91 []]}
+[2016-02-09 13:37:28,345][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:37:28,353][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4aa20d14 []]}
+[2016-02-09 13:39:33,715][INFO][luminus.repl-server] nREPL server stopped
+[2016-02-09 13:39:33,717][INFO][xpertview.handler] xpertview is shutting down...
+[2016-02-09 13:39:33,717][INFO][xpertview.handler] shutdown complete!
+[2016-02-09 13:39:33,718][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-02-09 13:39:33,726][INFO][luminus.http-server] HTTP server stopped
+[2016-02-09 13:40:00,828][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-09 13:41:49,942][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-09 13:41:49,945][INFO][xpertview.interiors] CREATE DB
+[2016-02-09 13:41:49,966][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:49,973][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.31, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:49,998][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:49,999][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.333, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,042][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,177][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 134.0, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,184][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,184][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0862, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,189][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,232][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 42.7, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:50,261][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-09 13:41:50,264][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:41:53,085][INFO][xpertview.interiors] LOAD DB
+[2016-02-09 13:41:53,102][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 29}
+[2016-02-09 13:41:53,115][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 12.1, :phase :end, :pid 5357, :tid 29}
+[2016-02-09 13:41:53,121][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:46:02,569][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :elem/brand berger, :elem/category plastic, :event/link emulsion white}]
+[2016-02-09 13:46:02,572][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,573][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.206, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,574][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :elem/brand asian paints, :elem/category superior, :event/link emulsion red}]
+[2016-02-09 13:46:02,574][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,575][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0546, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,588][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link distemper white}]
+[2016-02-09 13:46:02,590][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,590][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0967, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,590][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link distemper brown}]
+[2016-02-09 13:46:02,591][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,592][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.103, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:02,594][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:46:37,107][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:46:37,108][INFO][xpertview.interiors] SHUTDOWN DB
+[2016-02-09 13:46:37,110][INFO][xpertview.interiors] DELETING db  true
+[2016-02-09 13:46:37,110][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-09 13:46:40,840][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-09 13:46:40,840][INFO][xpertview.interiors] CREATE DB
+[2016-02-09 13:46:40,842][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,842][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0782, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,846][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,846][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.14, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,860][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,868][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.74, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,877][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,877][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0809, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,885][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,913][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 26.6, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:40,928][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-09 13:46:40,928][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:46:51,211][INFO][xpertview.interiors] LOAD DB
+[2016-02-09 13:46:51,217][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:51,224][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 7.0, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:51,225][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:46:54,644][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000020], :elem/brand asian paints, :elem/category superior, :event/link emulsion white}]
+[2016-02-09 13:46:54,645][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,645][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0412, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,645][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000022], :elem/brand asian paints, :elem/category acrylic, :event/link emulsion red}]
+[2016-02-09 13:46:54,646][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,646][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0509, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,648][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000024], :event/link distemper white}]
+[2016-02-09 13:46:54,649][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,649][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0866, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,650][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000026], :event/link distemper brown}]
+[2016-02-09 13:46:54,650][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,651][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0968, :phase :end, :pid 5357, :tid 33}
+[2016-02-09 13:46:54,652][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:47:51,084][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-02-09 13:48:00,748][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-02-09 13:48:00,749][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-02-09 13:48:00,829][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-02-09 13:48:00,949][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-02-09 13:48:01,125][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-02-09 13:48:01,127][INFO][luminus.http-server] server started on port 3000
+[2016-02-09 13:48:45,746][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-02-09 13:48:45,748][INFO][xpertview.interiors] CREATE DB
+[2016-02-09 13:48:45,765][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 53}
+[2016-02-09 13:48:45,776][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 6.74, :phase :end, :pid 6759, :tid 53}
+[2016-02-09 13:48:45,827][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 53}
+[2016-02-09 13:48:45,828][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.275, :phase :end, :pid 6759, :tid 53}
+[2016-02-09 13:48:45,875][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,083][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 208.0, :phase :end, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,089][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,090][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.135, :phase :end, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,099][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,149][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 49.6, :phase :end, :pid 6759, :tid 53}
+[2016-02-09 13:48:46,178][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-02-09 13:48:46,181][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:48:47,774][INFO][xpertview.interiors] LOAD DB
+[2016-02-09 13:48:47,799][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 27}
+[2016-02-09 13:48:47,826][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 25.3, :phase :end, :pid 6759, :tid 27}
+[2016-02-09 13:48:47,839][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:48:55,876][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000006], :elem/brand asian paints, :elem/category superior, :event/link emulsion white}]
+[2016-02-09 13:48:55,877][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,878][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.095, :phase :end, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,878][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000008], :elem/brand asian paints, :elem/category acrylic, :event/link emulsion red}]
+[2016-02-09 13:48:55,879][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,879][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0564, :phase :end, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,892][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000010], :event/link distemper white}]
+[2016-02-09 13:48:55,893][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,893][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.062, :phase :end, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,893][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000012], :event/link distemper brown}]
+[2016-02-09 13:48:55,894][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,894][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0558, :phase :end, :pid 6759, :tid 32}
+[2016-02-09 13:48:55,895][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-02-09 13:49:03,387][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:49:03,541][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2f8be353 []]}
+[2016-02-09 13:49:03,574][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:49:03,578][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x35e247a5 []]}
+[2016-02-09 13:49:03,749][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:49:03,752][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x394af56b []]}
+[2016-02-09 13:49:03,956][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:49:03,960][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x273e2fa6 []]}
+[2016-02-09 13:49:04,123][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:49:04,125][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x53afb922 []]}
+[2016-02-09 13:49:04,274][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:49:04,278][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5a623a2c []]}
+[2016-02-09 13:49:04,364][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:49:04,368][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2ca7eb45 []]}
+[2016-02-09 13:49:04,562][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:49:04,566][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xf42be3c [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:49:05,931][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:49:05,934][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2a2a137b []]}
+[2016-02-09 13:49:06,112][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:49:06,114][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3d45fd50 []]}
+[2016-02-09 13:49:06,279][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:49:06,282][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xd2cc45 []]}
+[2016-02-09 13:49:06,463][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:49:06,466][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xafb4b1d []]}
+[2016-02-09 13:49:06,640][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:49:06,647][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x154a0d2e []]}
+[2016-02-09 13:49:06,817][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:49:06,819][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d44b91a []]}
+[2016-02-09 13:49:07,001][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:49:07,004][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x780e036e []]}
+[2016-02-09 13:49:07,190][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:49:07,192][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xc9896c5 []]}
+[2016-02-09 13:49:07,913][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:49:07,915][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4902bb01 []]}
+[2016-02-09 13:49:08,067][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:49:08,069][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6c3a234c []]}
+[2016-02-09 13:49:08,170][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:49:08,172][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1f091619 []]}
+[2016-02-09 13:49:08,440][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:49:08,443][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4bf6fdea []]}
+[2016-02-09 13:49:08,520][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:49:08,522][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x453adaf0 []]}
+[2016-02-09 13:49:08,609][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:49:08,614][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x44da938d []]}
+[2016-02-09 13:49:08,819][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:49:08,821][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6e18841a []]}
+[2016-02-09 13:49:08,924][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:49:08,926][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x693e16ee []]}
+[2016-02-09 13:49:09,009][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 13:49:09,014][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6fa63c24 [[asian paints oil_based distemper white], [asian paints oil_based distemper brown]]]}
+[2016-02-09 13:49:10,321][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:49:10,323][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23cc6a45 []]}
+[2016-02-09 13:49:10,465][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:49:10,467][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6b0f83be []]}
+[2016-02-09 13:49:10,632][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:49:10,635][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x14c5a2be []]}
+[2016-02-09 13:49:10,808][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:49:10,811][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x42489534 []]}
+[2016-02-09 13:49:10,973][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:49:10,976][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xafd7b3d []]}
+[2016-02-09 13:49:11,145][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:49:11,149][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x570b627c []]}
+[2016-02-09 13:49:11,310][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:49:11,314][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4feb619f []]}
+[2016-02-09 13:49:11,496][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:49:11,503][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5fb68c17 []]}
+[2016-02-09 13:49:12,015][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:49:12,018][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x31ddd5c1 []]}
+[2016-02-09 13:49:12,294][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:49:12,300][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x378d1c32 []]}
+[2016-02-09 13:49:12,546][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:49:12,549][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29f9c531 []]}
+[2016-02-09 13:49:13,090][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:49:13,092][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5d684d27 []]}
+[2016-02-09 13:49:13,410][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:49:13,416][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x54a5df10 []]}
+[2016-02-09 13:49:13,653][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:49:13,657][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x226000a1 []]}
+[2016-02-09 13:49:13,769][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:49:13,771][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x18541a4 []]}
+[2016-02-09 13:49:13,849][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:49:13,852][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x24ede84e []]}
+[2016-02-09 13:49:14,089][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:49:14,091][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x33820488 [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:50:19,240][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:50:19,243][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29340135 []]}
+[2016-02-09 13:50:19,726][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:50:19,728][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2b1a17bd []]}
+[2016-02-09 13:50:19,939][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:50:19,941][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6161dfa0 []]}
+[2016-02-09 13:50:20,234][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:50:20,236][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x351aed05 []]}
+[2016-02-09 13:50:20,675][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:50:20,676][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4a1d6566 []]}
+[2016-02-09 13:50:21,486][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:50:21,489][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x67f9e5b9 []]}
+[2016-02-09 13:50:21,670][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:50:21,672][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x32ce83f4 []]}
+[2016-02-09 13:50:21,964][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:50:21,969][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2dc644d6 [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:52:43,984][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:52:43,987][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xa2aa735 []]}
+[2016-02-09 13:52:44,141][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:52:44,142][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e8eca93 []]}
+[2016-02-09 13:52:44,385][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:52:44,387][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x45310ae4 []]}
+[2016-02-09 13:52:44,631][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:52:44,635][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x65c870af []]}
+[2016-02-09 13:52:44,883][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:52:44,885][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e22f8fd []]}
+[2016-02-09 13:52:45,099][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:52:45,105][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x47c55c51 []]}
+[2016-02-09 13:52:45,157][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:52:45,159][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6c368a77 []]}
+[2016-02-09 13:52:45,486][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:52:45,489][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1a024e56 [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:52:50,890][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:52:50,892][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x48e2260b []]}
+[2016-02-09 13:52:51,065][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:52:51,068][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4deb1470 []]}
+[2016-02-09 13:52:51,259][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:52:51,261][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x11ceeb88 []]}
+[2016-02-09 13:52:51,444][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:52:51,445][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6cf9b9b9 []]}
+[2016-02-09 13:52:51,619][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:52:51,621][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x655e5754 []]}
+[2016-02-09 13:52:51,793][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:52:51,795][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x68c4cf0a []]}
+[2016-02-09 13:52:51,989][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:52:51,991][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4c8f630d []]}
+[2016-02-09 13:52:52,188][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:52:52,190][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5957d252 []]}
+[2016-02-09 13:53:25,186][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:53:25,189][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x509a515c []]}
+[2016-02-09 13:53:25,720][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:53:25,722][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x76c9f21f []]}
+[2016-02-09 13:53:25,942][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:53:25,944][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x37bd9620 []]}
+[2016-02-09 13:53:26,185][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:53:26,187][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x63c67d9e []]}
+[2016-02-09 13:53:26,964][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:53:26,967][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5bad54c []]}
+[2016-02-09 13:53:27,356][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:53:27,357][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23c0da80 []]}
+[2016-02-09 13:53:27,552][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:53:27,553][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x138344c2 []]}
+[2016-02-09 13:53:27,914][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:53:27,918][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x18bf5419 [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:58:22,191][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:58:22,194][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5d10a7d7 []]}
+[2016-02-09 13:58:22,336][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:58:22,338][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb75e503 []]}
+[2016-02-09 13:58:22,596][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:58:22,599][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x205cd59b []]}
+[2016-02-09 13:58:22,943][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:58:22,945][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x410e969a []]}
+[2016-02-09 13:58:23,209][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:58:23,211][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3ed19eab []]}
+[2016-02-09 13:58:23,368][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:58:23,370][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xe6903e6 []]}
+[2016-02-09 13:58:23,466][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:58:23,468][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15f17d69 []]}
+[2016-02-09 13:58:23,814][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 13:58:23,817][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x14e1851 [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 13:58:25,855][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 13:58:25,857][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x48b0fe44 []]}
+[2016-02-09 13:58:26,046][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 13:58:26,047][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4561190b []]}
+[2016-02-09 13:58:26,226][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 13:58:26,228][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x642a6920 []]}
+[2016-02-09 13:58:26,401][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 13:58:26,403][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x265f8035 []]}
+[2016-02-09 13:58:26,569][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 13:58:26,571][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1e5dadf7 []]}
+[2016-02-09 13:58:26,735][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 13:58:26,737][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1728eabc []]}
+[2016-02-09 13:58:26,920][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 13:58:26,922][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1c55471c []]}
+[2016-02-09 13:58:27,112][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:58:27,114][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x20d2780b []]}
+[2016-02-09 13:58:27,759][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:58:27,761][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x478ca7b0 []]}
+[2016-02-09 13:58:27,893][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:58:27,895][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x72f6681e []]}
+[2016-02-09 13:58:27,995][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:58:27,997][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1598d52b []]}
+[2016-02-09 13:58:28,278][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:58:28,279][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x72bf0eb3 []]}
+[2016-02-09 13:58:28,320][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:58:28,322][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x17bcd26a []]}
+[2016-02-09 13:58:28,383][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:58:28,387][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x40b84b9f []]}
+[2016-02-09 13:58:28,631][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:58:28,633][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7435da01 []]}
+[2016-02-09 13:58:28,745][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:58:28,747][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x34f6536 []]}
+[2016-02-09 13:58:28,814][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 13:58:28,816][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x61f7e8ce [[asian paints oil_based distemper white], [asian paints oil_based distemper brown]]]}
+[2016-02-09 13:58:30,522][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 13:58:30,524][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5afe3f07 []]}
+[2016-02-09 13:58:30,665][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 13:58:30,667][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1b8de1f7 []]}
+[2016-02-09 13:58:30,839][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 13:58:30,841][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb206f5d []]}
+[2016-02-09 13:58:31,022][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 13:58:31,024][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x43ca432 []]}
+[2016-02-09 13:58:31,216][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 13:58:31,218][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1afbd9bc []]}
+[2016-02-09 13:58:31,409][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 13:58:31,410][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6256cde6 []]}
+[2016-02-09 13:58:31,561][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 13:58:31,563][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4f282814 []]}
+[2016-02-09 13:58:31,738][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 13:58:31,740][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x54a428e9 []]}
+[2016-02-09 13:58:31,926][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 13:58:31,928][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xfacf3d4 []]}
+[2016-02-09 13:59:48,832][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 13:59:48,834][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 13:59:48,835][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 13:59:48,851][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 14:00:17,859][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 14:00:17,865][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x169fe946 []]}
+[2016-02-09 14:00:17,983][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 14:00:17,985][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5a11beea []]}
+[2016-02-09 14:00:18,213][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 14:00:18,217][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1fb2665e []]}
+[2016-02-09 14:00:18,404][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 14:00:18,406][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x24f57a94 []]}
+[2016-02-09 14:00:18,533][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 14:00:18,534][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xc197538 []]}
+[2016-02-09 14:00:18,675][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 14:00:18,677][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3206d []]}
+[2016-02-09 14:00:18,774][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 14:00:18,776][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7ec58aa8 []]}
+[2016-02-09 14:00:19,024][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 14:00:19,031][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1332c4cb [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 14:00:20,237][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 14:00:20,239][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x123e4de1 []]}
+[2016-02-09 14:00:20,414][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 14:00:20,416][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x64624da1 []]}
+[2016-02-09 14:00:20,581][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 14:00:20,583][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x37b4d7dd []]}
+[2016-02-09 14:00:20,742][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 14:00:20,743][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x40c00df []]}
+[2016-02-09 14:00:20,909][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 14:00:20,911][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x598e7550 []]}
+[2016-02-09 14:00:21,076][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 14:00:21,077][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6169b5aa []]}
+[2016-02-09 14:00:21,243][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 14:00:21,245][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3b878df []]}
+[2016-02-09 14:00:21,424][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 14:00:21,426][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x65d0e275 []]}
+[2016-02-09 14:00:21,997][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 14:00:21,999][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6a2e5f04 []]}
+[2016-02-09 14:00:22,140][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 14:00:22,141][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2070bdd6 []]}
+[2016-02-09 14:00:22,236][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 14:00:22,238][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6d31b8d1 []]}
+[2016-02-09 14:00:22,459][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 14:00:22,474][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3b6aa068 []]}
+[2016-02-09 14:00:22,553][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 14:00:22,555][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x59e6040d []]}
+[2016-02-09 14:00:22,621][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 14:00:22,622][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x635d0a9a []]}
+[2016-02-09 14:00:22,847][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 14:00:22,849][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1229de8f []]}
+[2016-02-09 14:00:22,931][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 14:00:22,934][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x366b94d8 []]}
+[2016-02-09 14:00:23,007][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 14:00:23,008][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xdb26936 [[asian paints oil_based distemper white], [asian paints oil_based distemper brown]]]}
+[2016-02-09 14:03:11,098][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 14:03:11,101][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x61562224 []]}
+[2016-02-09 14:03:11,249][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 14:03:11,250][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x78eba91a []]}
+[2016-02-09 14:03:11,456][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 14:03:11,458][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x56cc5023 []]}
+[2016-02-09 14:03:11,652][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 14:03:11,654][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x70333877 []]}
+[2016-02-09 14:03:11,789][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 14:03:11,790][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7378baf9 []]}
+[2016-02-09 14:03:11,940][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 14:03:11,942][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1aad8836 []]}
+[2016-02-09 14:03:12,039][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 14:03:12,040][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3a7dc335 []]}
+[2016-02-09 14:03:12,317][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 14:03:12,318][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x251525bf [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 14:04:29,365][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 14:04:29,367][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5ff1d3a []]}
+[2016-02-09 14:04:29,513][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 14:04:29,518][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x53526e1b []]}
+[2016-02-09 14:04:30,036][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 14:04:30,037][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7f6d96db []]}
+[2016-02-09 14:04:30,378][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 14:04:30,380][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3b10bb22 []]}
+[2016-02-09 14:04:30,449][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 14:04:30,451][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x52744bd8 []]}
+[2016-02-09 14:04:30,616][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 14:04:30,618][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1136d60f []]}
+[2016-02-09 14:04:30,872][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 14:04:30,873][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x665ef75e []]}
+[2016-02-09 14:04:31,035][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 14:04:31,036][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6d9d9679 []]}
+[2016-02-09 14:04:31,169][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 14:04:31,172][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2bedd889 [[asian paints oil_based distemper white], [asian paints oil_based distemper brown]]]}
+[2016-02-09 14:04:32,182][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 14:04:32,184][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5ab0ebcc []]}
+[2016-02-09 14:04:32,367][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 14:04:32,368][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1bf6c34f []]}
+[2016-02-09 14:04:32,531][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 14:04:32,533][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7b6d1082 []]}
+[2016-02-09 14:04:32,662][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 14:04:32,664][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x9ce0f02 []]}
+[2016-02-09 14:04:32,829][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 14:04:32,831][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d77b9dc []]}
+[2016-02-09 14:04:33,000][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 14:04:33,001][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1850aed3 []]}
+[2016-02-09 14:04:33,166][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 14:04:33,168][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x71324c6d []]}
+[2016-02-09 14:04:33,358][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 14:04:33,362][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x10beca80 []]}
+[2016-02-09 14:04:33,558][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 14:04:33,560][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x47d24f4a []]}
+[2016-02-09 14:05:54,965][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 14:05:54,996][DEBUG][io.undertow.request.io] Error reading request
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.xnio.nio.NioSocketConduit.read(NioSocketConduit.java:287)
+	at org.xnio.conduits.ConduitStreamSourceChannel.read(ConduitStreamSourceChannel.java:127)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:150)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:128)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:56)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:545)
+[2016-02-09 14:07:59,489][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 14:07:59,493][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6423ff90 []]}
+[2016-02-09 14:07:59,631][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 14:07:59,635][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x67ac7d31 []]}
+[2016-02-09 14:07:59,853][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 14:07:59,854][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2258e002 []]}
+[2016-02-09 14:08:00,052][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 14:08:00,054][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x321d9b1d []]}
+[2016-02-09 14:08:00,185][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 14:08:00,188][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x46845986 []]}
+[2016-02-09 14:08:00,330][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 14:08:00,333][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x37ffef3d []]}
+[2016-02-09 14:08:00,466][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 14:08:00,468][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x46eb10cd []]}
+[2016-02-09 14:08:00,705][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-02-09 14:08:00,707][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x8f0278b [[berger acrylic emulsion red], [asian paints superior emulsion white]]]}
+[2016-02-09 14:08:01,495][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-02-09 14:08:01,497][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7e2d2014 []]}
+[2016-02-09 14:08:01,666][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-02-09 14:08:01,667][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x70f737cc []]}
+[2016-02-09 14:08:01,827][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-02-09 14:08:01,828][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x624038a6 []]}
+[2016-02-09 14:08:02,000][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-02-09 14:08:02,002][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x30dc1efc []]}
+[2016-02-09 14:08:02,169][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-02-09 14:08:02,173][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x776734b0 []]}
+[2016-02-09 14:08:02,328][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-02-09 14:08:02,329][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7c1a8ab []]}
+[2016-02-09 14:08:02,504][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-02-09 14:08:02,506][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x63265d0a []]}
+[2016-02-09 14:08:02,681][INFO][xpertview.routes.home] Query Param is ->  
+[2016-02-09 14:08:02,682][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4501ae09 []]}
+[2016-02-09 14:08:03,296][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-02-09 14:08:03,297][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5815c2c5 []]}
+[2016-02-09 14:08:03,442][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-02-09 14:08:03,444][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3ae1a302 []]}
+[2016-02-09 14:08:03,543][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-02-09 14:08:03,545][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x16852c9d []]}
+[2016-02-09 14:08:03,774][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-02-09 14:08:03,776][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x308d267c []]}
+[2016-02-09 14:08:03,852][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-02-09 14:08:03,856][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4f7bd77e []]}
+[2016-02-09 14:08:03,945][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-02-09 14:08:03,946][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6f7d685b []]}
+[2016-02-09 14:08:04,152][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-02-09 14:08:04,154][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x645d78a []]}
+[2016-02-09 14:08:04,258][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 14:08:04,260][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2cbc8c53 []]}
+[2016-02-09 14:08:04,338][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-02-09 14:08:04,341][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1eef8272 [[asian paints oil_based distemper white], [asian paints oil_based distemper brown]]]}
+[2016-02-09 14:08:05,627][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-02-09 14:08:05,628][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x215bfc1b []]}
+[2016-02-09 14:08:05,834][INFO][xpertview.routes.home] Query Param is ->  distemp

@@ -1,0 +1,621 @@
+[2016-03-09 00:12:31,520][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:12:31,526][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:12:33,819][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:12:33,838][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 24828, :tid 24}
+[2016-03-09 00:12:33,850][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 11.5, :phase :end, :pid 24828, :tid 24}
+[2016-03-09 00:12:33,862][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:17:20,406][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:17:47,279][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:17:50,344][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:17:50,347][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:17:50,380][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,389][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.28, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,414][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,415][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.299, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,477][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,609][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 131.0, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,615][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,616][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0836, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,619][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,657][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 37.1, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:50,689][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:17:50,692][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:17:53,249][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:17:53,271][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 25860, :tid 22}
+[2016-03-09 00:17:53,292][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 20.2, :phase :end, :pid 25860, :tid 22}
+[2016-03-09 00:17:53,305][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:18:15,503][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand asian paints, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:18:28,798][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000020], :paint/brand berger, :paint/type [{:db/id #db/id[:db.part/user -1000021], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000022], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000023], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000024], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000025], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000026], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000027], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000028], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:18:31,203][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand birla, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:19:41,712][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:20:23,374][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:20:27,048][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:20:27,048][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:20:27,074][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,082][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.66, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,110][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,110][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.25, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,150][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,288][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 137.0, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,299][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,299][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.096, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,309][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,353][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 43.3, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:27,390][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:20:27,393][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:20:30,187][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:20:30,210][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:30,219][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.89, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:30,230][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:20:39,244][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand asian paints, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:20:39,246][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:39,247][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.123, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:53,010][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:20:53,013][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:53,013][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.151, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:20:55,388][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:20:55,390][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 26331, :tid 22}
+[2016-03-09 00:20:55,391][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.108, :phase :end, :pid 26331, :tid 22}
+[2016-03-09 00:32:21,702][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:32:51,380][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:32:54,887][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:32:54,888][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:32:54,914][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:54,927][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 10.6, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:54,955][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:54,964][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.76, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,021][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,135][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 113.0, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,143][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,143][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0886, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,148][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,210][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 61.5, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:55,241][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:32:55,243][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:32:57,788][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:32:57,810][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:32:57,819][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.5, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:32:57,830][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:33:03,547][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand birla, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:33:03,551][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:33:03,551][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.122, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:33:05,779][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:33:05,783][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:33:05,783][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0827, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:33:07,762][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand asian paints, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:33:07,765][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28348, :tid 22}
+[2016-03-09 00:33:07,765][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0787, :phase :end, :pid 28348, :tid 22}
+[2016-03-09 00:34:27,357][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:34:54,044][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:34:54,047][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:34:54,059][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,070][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.95, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,097][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,098][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.291, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,145][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,311][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 165.0, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,317][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,318][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.135, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,323][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,371][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 47.5, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:54,405][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:34:54,407][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:34:56,939][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:34:56,967][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:34:56,978][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 10.8, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:34:56,986][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:35:01,565][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand asian paints, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:35:01,568][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:35:01,568][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0921, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:35:03,347][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:35:03,351][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:35:03,351][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0916, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:35:05,131][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:35:05,134][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 28917, :tid 22}
+[2016-03-09 00:35:05,135][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0932, :phase :end, :pid 28917, :tid 22}
+[2016-03-09 00:38:10,925][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:38:37,478][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:38:37,480][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:38:37,502][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,510][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.73, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,529][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,529][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.256, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,575][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,700][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 124.0, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,707][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,707][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0974, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,712][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,752][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 40.4, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:37,780][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:38:37,783][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:38:40,383][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:38:40,407][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:40,425][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 17.5, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:40,435][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:38:45,849][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand berger, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:38:45,854][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:45,855][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.098, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:48,090][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand asian paints, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:38:48,093][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:48,093][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0935, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:38:49,965][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:38:49,970][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 29720, :tid 22}
+[2016-03-09 00:38:49,970][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.1, :phase :end, :pid 29720, :tid 22}
+[2016-03-09 00:42:59,858][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:43:25,699][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:43:30,490][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:43:30,491][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:43:30,515][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,527][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.42, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,563][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,564][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.225, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,624][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,744][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 120.0, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,749][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,749][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0867, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,754][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,791][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 36.6, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:30,829][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:43:30,831][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:43:33,683][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:43:33,706][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:33,720][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 13.5, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:33,730][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:43:37,557][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:43:37,559][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,560][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.115, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,560][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:43:37,565][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,565][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.112, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,567][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:43:37,572][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,580][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.122, :phase :end, :pid 30564, :tid 22}
+[2016-03-09 00:43:37,580][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:52:05,240][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:52:18,245][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:52:22,081][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-03-09 00:52:22,085][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-03-09 00:52:22,197][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-03-09 00:52:22,490][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-03-09 00:52:22,796][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-03-09 00:52:22,797][INFO][luminus.http-server] server started on port 3000
+[2016-03-09 00:54:24,721][INFO][luminus.repl-server] nREPL server stopped
+[2016-03-09 00:54:24,723][INFO][xpertview.handler] xpertview is shutting down...
+[2016-03-09 00:54:24,724][INFO][xpertview.handler] shutdown complete!
+[2016-03-09 00:54:24,726][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-03-09 00:54:24,742][INFO][luminus.http-server] HTTP server stopped
+[2016-03-09 00:55:29,862][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:56:07,852][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 00:56:19,787][INFO][luminus.repl-server] nREPL server started on port 7000
+[2016-03-09 00:56:19,797][INFO][xpertview.config] 
+-=[xpertview started successfully using the development profile]=-
+[2016-03-09 00:56:19,876][INFO][org.xnio] XNIO version 3.4.0.Beta1
+[2016-03-09 00:56:19,992][INFO][org.xnio.nio] XNIO NIO Implementation Version 3.4.0.Beta1
+[2016-03-09 00:56:20,145][INFO][org.projectodd.wunderboss.web.Web] Registered web context /
+[2016-03-09 00:56:20,147][INFO][luminus.http-server] server started on port 3000
+[2016-03-09 00:56:35,028][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 00:56:35,038][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 00:56:35,061][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,080][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 14.1, :phase :end, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,116][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,116][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.226, :phase :end, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,184][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,401][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 213.0, :phase :end, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,417][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,421][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.123, :phase :end, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,428][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,512][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 79.8, :phase :end, :pid 32439, :tid 49}
+[2016-03-09 00:56:35,568][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 00:56:35,570][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:56:40,766][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 00:56:40,798][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 47}
+[2016-03-09 00:56:40,831][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 32.2, :phase :end, :pid 32439, :tid 47}
+[2016-03-09 00:56:40,841][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:56:46,274][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 00:56:46,277][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,278][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.105, :phase :end, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,282][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 00:56:46,285][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,285][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.126, :phase :end, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,286][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 00:56:46,289][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,289][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0836, :phase :end, :pid 32439, :tid 52}
+[2016-03-09 00:56:46,289][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 00:56:54,326][INFO][xpertview.routes.home] Query Param is ->  w
+[2016-03-09 00:56:54,437][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6695877d []]}
+[2016-03-09 00:56:54,718][INFO][xpertview.routes.home] Query Param is ->  wo
+[2016-03-09 00:56:54,726][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d97a55d []]}
+[2016-03-09 00:56:54,873][INFO][xpertview.routes.home] Query Param is ->  woo
+[2016-03-09 00:56:54,877][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23cc6a45 []]}
+[2016-03-09 00:56:55,005][INFO][xpertview.routes.home] Query Param is ->  wood
+[2016-03-09 00:56:55,009][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3b25beb1 []]}
+[2016-03-09 00:56:55,302][INFO][xpertview.routes.home] Query Param is ->  woodw
+[2016-03-09 00:56:55,306][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x550eb04 []]}
+[2016-03-09 00:56:55,479][INFO][xpertview.routes.home] Query Param is ->  woodwo
+[2016-03-09 00:56:55,483][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x44da938d []]}
+[2016-03-09 00:56:55,684][INFO][xpertview.routes.home] Query Param is ->  woodwor
+[2016-03-09 00:56:55,689][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x13d4c611 []]}
+[2016-03-09 00:56:55,960][INFO][xpertview.routes.home] Query Param is ->  woodwork
+[2016-03-09 00:56:55,968][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2b88a839 []]}
+[2016-03-09 00:56:57,102][INFO][xpertview.routes.home] Query Param is ->  woodwor
+[2016-03-09 00:56:57,108][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5d13e96f []]}
+[2016-03-09 00:56:57,262][INFO][xpertview.routes.home] Query Param is ->  woodwo
+[2016-03-09 00:56:57,265][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb7d35a5 []]}
+[2016-03-09 00:56:57,438][INFO][xpertview.routes.home] Query Param is ->  woodw
+[2016-03-09 00:56:57,442][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x597d2d6f []]}
+[2016-03-09 00:56:57,614][INFO][xpertview.routes.home] Query Param is ->  wood
+[2016-03-09 00:56:57,620][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb4b21b4 []]}
+[2016-03-09 00:56:57,790][INFO][xpertview.routes.home] Query Param is ->  woo
+[2016-03-09 00:56:57,793][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x28ad50c5 []]}
+[2016-03-09 00:56:57,958][INFO][xpertview.routes.home] Query Param is ->  wo
+[2016-03-09 00:56:57,962][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x20c0dc07 []]}
+[2016-03-09 00:56:58,142][INFO][xpertview.routes.home] Query Param is ->  w
+[2016-03-09 00:56:58,146][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6d22123e []]}
+[2016-03-09 00:56:58,323][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:56:58,326][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1b739428 []]}
+[2016-03-09 00:56:59,479][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-03-09 00:56:59,484][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1a024e56 []]}
+[2016-03-09 00:56:59,669][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-03-09 00:56:59,674][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xe4f928c []]}
+[2016-03-09 00:56:59,884][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-03-09 00:56:59,888][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x14f261fa []]}
+[2016-03-09 00:57:00,343][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-03-09 00:57:00,346][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3e6554b0 []]}
+[2016-03-09 00:57:00,660][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-03-09 00:57:00,662][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d28219b []]}
+[2016-03-09 00:57:00,846][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-03-09 00:57:00,849][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x23056563 []]}
+[2016-03-09 00:57:00,928][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-03-09 00:57:00,931][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4f84742d []]}
+[2016-03-09 00:57:01,268][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-03-09 00:57:01,276][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1401807b [[Asian emulsion blue superior], [Asian emulsion grey washable], [Asian emulsion white acrylic], [Asian emulsion red plastic], [Birla emulsion postoffice red plastic], [Birla emulsion milk white acrylic], [Birla emulsion sky blue superior], [Berger emulsion gold plastic], [Berger emulsion emerald superior], [Berger emulsion white acrylic], [Birla emulsion medium grey washable], [Berger emulsion light grey washable]]]}
+[2016-03-09 00:57:06,872][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-03-09 00:57:06,875][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x14eb1410 []]}
+[2016-03-09 00:57:07,078][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-03-09 00:57:07,081][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3b23f5fe []]}
+[2016-03-09 00:57:07,269][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-03-09 00:57:07,272][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7183cfef []]}
+[2016-03-09 00:57:07,455][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-03-09 00:57:07,458][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6dc40540 []]}
+[2016-03-09 00:57:07,594][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-03-09 00:57:07,598][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29d492ce []]}
+[2016-03-09 00:57:07,790][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-03-09 00:57:07,793][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ebfd016 []]}
+[2016-03-09 00:57:07,973][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-03-09 00:57:07,976][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x73164a59 []]}
+[2016-03-09 00:57:08,166][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:57:08,169][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15f17d69 []]}
+[2016-03-09 00:57:08,868][INFO][xpertview.routes.home] Query Param is ->  p
+[2016-03-09 00:57:08,872][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x663e2887 []]}
+[2016-03-09 00:57:09,078][INFO][xpertview.routes.home] Query Param is ->  pl
+[2016-03-09 00:57:09,081][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x641ffb77 []]}
+[2016-03-09 00:57:09,222][INFO][xpertview.routes.home] Query Param is ->  pla
+[2016-03-09 00:57:09,224][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2d0b804c []]}
+[2016-03-09 00:57:09,423][INFO][xpertview.routes.home] Query Param is ->  plas
+[2016-03-09 00:57:09,426][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x35e247a5 []]}
+[2016-03-09 00:57:09,743][INFO][xpertview.routes.home] Query Param is ->  plast
+[2016-03-09 00:57:09,748][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xb9705de []]}
+[2016-03-09 00:57:09,921][INFO][xpertview.routes.home] Query Param is ->  plasti
+[2016-03-09 00:57:09,924][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4a1d6566 []]}
+[2016-03-09 00:57:10,070][INFO][xpertview.routes.home] Query Param is ->  plastic
+[2016-03-09 00:57:10,075][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1d132a1b [[Asian emulsion red plastic], [Birla emulsion postoffice red plastic], [Berger emulsion gold plastic]]]}
+[2016-03-09 00:57:11,646][INFO][xpertview.routes.home] Query Param is ->  plasti
+[2016-03-09 00:57:11,648][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6e8a232c []]}
+[2016-03-09 00:57:11,913][INFO][xpertview.routes.home] Query Param is ->  plast
+[2016-03-09 00:57:11,921][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x53d41cbd []]}
+[2016-03-09 00:57:12,077][INFO][xpertview.routes.home] Query Param is ->  plas
+[2016-03-09 00:57:12,080][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7488d2bd []]}
+[2016-03-09 00:57:12,277][INFO][xpertview.routes.home] Query Param is ->  pla
+[2016-03-09 00:57:12,280][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x710d95df []]}
+[2016-03-09 00:57:12,463][INFO][xpertview.routes.home] Query Param is ->  pl
+[2016-03-09 00:57:12,465][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xf74b405 []]}
+[2016-03-09 00:57:12,669][INFO][xpertview.routes.home] Query Param is ->  p
+[2016-03-09 00:57:12,673][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x266abba0 []]}
+[2016-03-09 00:57:13,036][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:57:13,040][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2e07366f []]}
+[2016-03-09 00:57:13,758][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-03-09 00:57:13,762][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x282081fe []]}
+[2016-03-09 00:57:13,999][INFO][xpertview.routes.home] Query Param is ->  dr
+[2016-03-09 00:57:14,006][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x15b47936 []]}
+[2016-03-09 00:57:14,384][INFO][xpertview.routes.home] Query Param is ->  dry
+[2016-03-09 00:57:14,386][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1e3dc9ce [[Birla distemper chocolate brown dry], [Berger distemper light brown dry], [Asian distemper yellow dry], [Berger distemper bright yellow dry], [Asian distemper brown dry], [Birla distemper pale yellow dry]]]}
+[2016-03-09 00:57:15,342][INFO][xpertview.routes.home] Query Param is ->  dr
+[2016-03-09 00:57:15,344][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x886d35 []]}
+[2016-03-09 00:57:15,520][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-03-09 00:57:15,523][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1a359d14 []]}
+[2016-03-09 00:57:15,925][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:57:15,927][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x30a2bd0c []]}
+[2016-03-09 00:57:16,550][INFO][xpertview.routes.home] Query Param is ->  o
+[2016-03-09 00:57:16,552][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x13efdc4e []]}
+[2016-03-09 00:57:16,679][INFO][xpertview.routes.home] Query Param is ->  oi
+[2016-03-09 00:57:16,681][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2dc29f73 []]}
+[2016-03-09 00:57:16,902][INFO][xpertview.routes.home] Query Param is ->  oil
+[2016-03-09 00:57:16,904][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x414383ad []]}
+[2016-03-09 00:57:17,270][INFO][xpertview.routes.home] Query Param is ->  oil_
+[2016-03-09 00:57:17,273][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ac67c8b []]}
+[2016-03-09 00:57:17,686][INFO][xpertview.routes.home] Query Param is ->  oil_b
+[2016-03-09 00:57:17,689][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1a2cf8fd []]}
+[2016-03-09 00:57:17,813][INFO][xpertview.routes.home] Query Param is ->  oil_ba
+[2016-03-09 00:57:17,815][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x50a56e0 []]}
+[2016-03-09 00:57:17,935][INFO][xpertview.routes.home] Query Param is ->  oil_bas
+[2016-03-09 00:57:17,937][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7f443faf []]}
+[2016-03-09 00:57:18,168][INFO][xpertview.routes.home] Query Param is ->  oil_base
+[2016-03-09 00:57:18,171][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x6303e688 []]}
+[2016-03-09 00:57:18,350][INFO][xpertview.routes.home] Query Param is ->  oil_based
+[2016-03-09 00:57:18,352][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7d86fa76 [[Asian distemper white oil_based], [Birla distemper turquoise blue oil_based], [Berger distemper dark blue oil_based], [Berger distemper pearl white oil_based], [Birla distemper bright white oil_based], [Asian distemper blue oil_based]]]}
+[2016-03-09 00:57:24,265][INFO][xpertview.routes.home] Query Param is ->  oil_base
+[2016-03-09 00:57:24,267][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x10783db1 []]}
+[2016-03-09 00:57:24,472][INFO][xpertview.routes.home] Query Param is ->  oil_bas
+[2016-03-09 00:57:24,475][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x3e680d86 []]}
+[2016-03-09 00:57:24,675][INFO][xpertview.routes.home] Query Param is ->  oil_ba
+[2016-03-09 00:57:24,703][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x50f3e1b3 []]}
+[2016-03-09 00:57:24,846][INFO][xpertview.routes.home] Query Param is ->  oil_b
+[2016-03-09 00:57:24,849][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2d478528 []]}
+[2016-03-09 00:57:25,038][INFO][xpertview.routes.home] Query Param is ->  oil_
+[2016-03-09 00:57:25,040][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x59383606 []]}
+[2016-03-09 00:57:25,220][INFO][xpertview.routes.home] Query Param is ->  oil
+[2016-03-09 00:57:25,223][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29340135 []]}
+[2016-03-09 00:57:25,420][INFO][xpertview.routes.home] Query Param is ->  oi
+[2016-03-09 00:57:25,423][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x31ddd5c1 []]}
+[2016-03-09 00:57:25,925][INFO][xpertview.routes.home] Query Param is ->  o
+[2016-03-09 00:57:25,929][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0xfa88074 []]}
+[2016-03-09 00:57:26,470][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:57:26,473][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4e22f8fd []]}
+[2016-03-09 00:57:29,856][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-03-09 00:57:29,859][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x192cad61 []]}
+[2016-03-09 00:57:30,078][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-03-09 00:57:30,081][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x49c7cf3f []]}
+[2016-03-09 00:57:30,221][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-03-09 00:57:30,222][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x57eb821f []]}
+[2016-03-09 00:57:30,507][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-03-09 00:57:30,510][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x40d487ee []]}
+[2016-03-09 00:57:30,608][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-03-09 00:57:30,610][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x686e762d []]}
+[2016-03-09 00:57:30,767][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-03-09 00:57:30,769][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4a762b8f []]}
+[2016-03-09 00:57:30,974][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-03-09 00:57:30,976][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x22553bb5 []]}
+[2016-03-09 00:57:31,141][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-03-09 00:57:31,143][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x2a38b777 []]}
+[2016-03-09 00:57:31,366][INFO][xpertview.routes.home] Query Param is ->  distemper
+[2016-03-09 00:57:31,368][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1c848dbd [[Asian distemper white oil_based], [Birla distemper turquoise blue oil_based], [Birla distemper chocolate brown dry], [Berger distemper dark blue oil_based], [Berger distemper pearl white oil_based], [Berger distemper light brown dry], [Birla distemper bright white oil_based], [Asian distemper yellow dry], [Berger distemper bright yellow dry], [Asian distemper blue oil_based], [Birla distemper pale yellow dry], [Asian distemper brown dry]]]}
+[2016-03-09 00:57:42,119][INFO][xpertview.routes.home] Query Param is ->  distempe
+[2016-03-09 00:57:42,122][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x118bff58 []]}
+[2016-03-09 00:57:42,305][INFO][xpertview.routes.home] Query Param is ->  distemp
+[2016-03-09 00:57:42,307][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x5b3f446d []]}
+[2016-03-09 00:57:42,503][INFO][xpertview.routes.home] Query Param is ->  distem
+[2016-03-09 00:57:42,505][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x4b7f9fc []]}
+[2016-03-09 00:57:42,686][INFO][xpertview.routes.home] Query Param is ->  diste
+[2016-03-09 00:57:42,689][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1e0a0a8a []]}
+[2016-03-09 00:57:42,862][INFO][xpertview.routes.home] Query Param is ->  dist
+[2016-03-09 00:57:42,864][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x349d3fc0 []]}
+[2016-03-09 00:57:43,064][INFO][xpertview.routes.home] Query Param is ->  dis
+[2016-03-09 00:57:43,066][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x17d04aeb []]}
+[2016-03-09 00:57:43,245][INFO][xpertview.routes.home] Query Param is ->  di
+[2016-03-09 00:57:43,248][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x29fd0e13 []]}
+[2016-03-09 00:57:43,447][INFO][xpertview.routes.home] Query Param is ->  d
+[2016-03-09 00:57:43,449][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x457c1f5d []]}
+[2016-03-09 00:57:43,696][INFO][xpertview.routes.home] Query Param is ->  
+[2016-03-09 00:57:43,698][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1ef9eb0b []]}
+[2016-03-09 00:57:44,759][INFO][xpertview.routes.home] Query Param is ->  e
+[2016-03-09 00:57:44,762][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1e137f60 []]}
+[2016-03-09 00:57:44,896][INFO][xpertview.routes.home] Query Param is ->  em
+[2016-03-09 00:57:44,899][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x43b79c48 []]}
+[2016-03-09 00:57:45,238][INFO][xpertview.routes.home] Query Param is ->  emu
+[2016-03-09 00:57:45,244][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x7b7ba49f []]}
+[2016-03-09 00:57:45,550][INFO][xpertview.routes.home] Query Param is ->  emul
+[2016-03-09 00:57:45,552][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x673c6e30 []]}
+[2016-03-09 00:57:45,775][INFO][xpertview.routes.home] Query Param is ->  emuls
+[2016-03-09 00:57:45,778][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x54175baa []]}
+[2016-03-09 00:57:45,905][INFO][xpertview.routes.home] Query Param is ->  emulsi
+[2016-03-09 00:57:45,907][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x1447bb66 []]}
+[2016-03-09 00:57:45,968][INFO][xpertview.routes.home] Query Param is ->  emulsio
+[2016-03-09 00:57:45,970][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x12a95722 []]}
+[2016-03-09 00:57:46,191][INFO][xpertview.routes.home] Query Param is ->  emulsion
+[2016-03-09 00:57:46,195][INFO][xpertview.routes.home] {:answers #object[java.util.HashSet 0x71d9c6a [[Asian emulsion blue superior], [Asian emulsion grey washable], [Asian emulsion white acrylic], [Asian emulsion red plastic], [Birla emulsion postoffice red plastic], [Birla emulsion milk white acrylic], [Berger emulsion gold plastic], [Berger emulsion emerald superior], [Birla emulsion sky blue superior], [Berger emulsion white acrylic], [Birla emulsion medium grey washable], [Berger emulsion light grey washable]]]}
+[2016-03-09 00:58:01,359][INFO][luminus.repl-server] nREPL server stopped
+[2016-03-09 00:58:01,368][INFO][xpertview.handler] xpertview is shutting down...
+[2016-03-09 00:58:01,368][INFO][xpertview.handler] shutdown complete!
+[2016-03-09 00:58:01,369][DEBUG][org.projectodd.wunderboss.WunderBoss] Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options.
+[2016-03-09 00:58:01,382][INFO][luminus.http-server] HTTP server stopped
+[2016-03-09 01:04:08,011][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 01:04:32,872][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 01:04:32,885][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 01:04:32,902][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:32,909][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.75, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:32,934][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:32,935][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.302, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:32,978][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,122][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 144.0, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,133][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,133][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0819, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,139][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,185][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 46.1, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:33,222][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 01:04:33,224][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:04:36,292][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 01:04:36,318][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:36,327][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.17, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:36,344][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:04:39,501][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 01:04:39,508][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,508][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.118, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,509][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 01:04:39,512][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,512][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0954, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,515][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 01:04:39,520][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,521][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.208, :phase :end, :pid 33483, :tid 22}
+[2016-03-09 01:04:39,522][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:15:39,660][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 01:16:14,351][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 01:16:17,971][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 01:16:17,972][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 01:16:17,982][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:17,987][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 2.67, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,010][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,011][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.257, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,052][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,179][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 128.0, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,185][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,186][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.125, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,189][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,231][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 41.4, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:18,262][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 01:16:18,265][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:16:20,726][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 01:16:20,749][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:20,758][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.05, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:20,765][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:16:26,381][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 01:16:26,384][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,384][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0999, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,385][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 01:16:26,386][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,387][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.108, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,387][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 01:16:26,398][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,398][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.152, :phase :end, :pid 35594, :tid 22}
+[2016-03-09 01:16:26,399][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:18:26,025][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 01:18:53,377][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 01:18:53,381][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 01:18:53,393][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,399][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 3.9, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,414][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,416][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.335, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,453][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,573][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 120.0, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,579][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,579][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0744, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,584][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,621][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 36.1, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:53,654][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 01:18:53,657][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:18:56,771][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 01:18:56,793][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:18:56,806][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 12.4, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:18:56,814][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 01:19:02,939][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 01:19:02,943][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,943][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0891, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,944][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 01:19:02,948][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,949][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.594, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,951][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 01:19:02,955][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,957][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.206, :phase :end, :pid 36162, :tid 24}
+[2016-03-09 01:19:02,957][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:13:54,223][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 09:14:21,054][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 09:14:23,699][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 09:14:23,700][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 09:14:23,713][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,721][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.62, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,767][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,767][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.248, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,831][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,981][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 150.0, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,993][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:23,993][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0895, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:24,002][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:24,042][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 40.3, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:24,072][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 09:14:24,074][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:14:26,867][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 09:14:26,901][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:26,914][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 12.6, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:26,923][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:14:30,126][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 09:14:30,130][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,130][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0839, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,131][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 09:14:30,136][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,136][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.177, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,137][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 09:14:30,141][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,142][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.102, :phase :end, :pid 43669, :tid 24}
+[2016-03-09 09:14:30,142][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:21:31,882][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 09:22:38,150][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 09:22:41,378][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 09:22:41,379][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 09:22:41,406][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,414][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 5.38, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,442][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,443][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.292, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,490][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,671][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 180.0, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,687][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,687][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0845, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,692][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,752][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 60.3, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:41,782][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 09:22:41,784][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:22:44,242][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 09:22:44,268][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:44,278][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 10.1, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:44,288][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 09:22:47,541][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 09:22:47,544][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,544][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0815, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,545][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 09:22:47,551][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,554][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.381, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,555][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 09:22:47,558][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,558][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.129, :phase :end, :pid 44885, :tid 26}
+[2016-03-09 09:22:47,558][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:12:06,122][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 10:12:58,061][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 10:12:58,063][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 10:12:58,077][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,084][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 4.07, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,109][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,109][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.284, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,172][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,364][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 192.0, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,382][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,382][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.106, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,387][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,439][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 51.3, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:12:58,475][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 10:12:58,477][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:13:01,639][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 10:13:01,661][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:13:01,670][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 8.72, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:13:01,684][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:13:04,511][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 10:13:04,515][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,515][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.12, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,515][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
+[2016-03-09 10:13:04,520][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,520][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.103, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,521][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000047], :paint/brand Birla, :paint/type [{:db/id #db/id[:db.part/user -1000048], :paint/paint_type emulsion, :paint/shade milk white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000049], :paint/paint_type emulsion, :paint/shade postoffice red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000050], :paint/paint_type emulsion, :paint/shade sky blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000051], :paint/paint_type emulsion, :paint/shade medium grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000052], :paint/paint_type distemper, :paint/shade bright white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000053], :paint/paint_type distemper, :paint/shade turquoise blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000054], :paint/paint_type distemper, :paint/shade chocolate brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000055], :paint/paint_type distemper, :paint/shade pale yellow, :paint/category dry}]}]
+[2016-03-09 10:13:04,523][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,524][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.127, :phase :end, :pid 51333, :tid 25}
+[2016-03-09 10:13:04,525][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:18:22,733][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2016-03-09 10:20:07,023][INFO][xpertview.interiors] EXISTING dbs nil
+[2016-03-09 10:20:07,025][INFO][xpertview.interiors] CREATE DB
+[2016-03-09 10:20:07,047][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,062][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.95, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,078][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,079][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.192, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,110][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,226][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 116.0, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,233][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,233][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0846, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,237][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,272][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 34.4, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:07,307][INFO][xpertview.interiors] CREATING db  datomic:mem://interiors-analytics-db true
+[2016-03-09 10:20:07,309][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:20:12,988][INFO][xpertview.interiors] LOAD DB
+[2016-03-09 10:20:13,001][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:13,011][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 9.75, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:13,019][INFO][xpertview.interiors] EXISTING dbs (interiors-analytics-db)
+[2016-03-09 10:20:16,876][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000011], :paint/brand Asian, :paint/type [{:db/id #db/id[:db.part/user -1000012], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000013], :paint/paint_type emulsion, :paint/shade red, :paint/category plastic} {:db/id #db/id[:db.part/user -1000014], :paint/paint_type emulsion, :paint/shade blue, :paint/category superior} {:db/id #db/id[:db.part/user -1000015], :paint/paint_type emulsion, :paint/shade grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000016], :paint/paint_type distemper, :paint/shade white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000017], :paint/paint_type distemper, :paint/shade blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000018], :paint/paint_type distemper, :paint/shade brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000019], :paint/paint_type distemper, :paint/shade yellow, :paint/category dry}]}]
+[2016-03-09 10:20:16,880][DEBUG][datomic.db] {:event :db/add-fulltext, :phase :begin, :pid 52301, :tid 27}
+[2016-03-09 10:20:16,880][DEBUG][datomic.db] {:event :db/add-fulltext, :msec 0.0947, :phase :end, :pid 52301, :tid 27}
+[2016-03-09 10:20:16,881][INFO][xpertview.interiors] [{:db/id #db/id[:db.part/user -1000029], :paint/brand Berger, :paint/type [{:db/id #db/id[:db.part/user -1000030], :paint/paint_type emulsion, :paint/shade white, :paint/category acrylic} {:db/id #db/id[:db.part/user -1000031], :paint/paint_type emulsion, :paint/shade gold, :paint/category plastic} {:db/id #db/id[:db.part/user -1000032], :paint/paint_type emulsion, :paint/shade emerald, :paint/category superior} {:db/id #db/id[:db.part/user -1000033], :paint/paint_type emulsion, :paint/shade light grey, :paint/category washable} {:db/id #db/id[:db.part/user -1000034], :paint/paint_type distemper, :paint/shade pearl white, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000035], :paint/paint_type distemper, :paint/shade dark blue, :paint/category oil_based} {:db/id #db/id[:db.part/user -1000036], :paint/paint_type distemper, :paint/shade light brown, :paint/category dry} {:db/id #db/id[:db.part/user -1000037], :paint/paint_type distemper, :paint/shade bright yellow, :paint/category dry}]}]
